@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import "./Team.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
-import car from "./images/DSCN5657.jpg";
-import designing from "./images/designing.jpg";
-import manufacturing from "./images/manufacturing.jpg";
-import racing from "./images/racing.png";
+
 
 
 const Team = (props) => {
