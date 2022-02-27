@@ -11,6 +11,21 @@ import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf"
 
 
 const Home = (props) => {
+
+  function menuToggler() {
+    console.log("testing");
+    const thepath = document.getElementById("forfancymenu");
+    const checkbox = document.getElementById("menu-toggle");
+    if (checkbox.checked == true)
+    {
+      thepath.setAttribute("d", "M0 3 h4 l6 6 l6 -6 h4 l-8 8 l8 8 h-4 l-6 -6 l-6 6 h-4 l8 -8 z;");
+    }
+    else
+    {
+      thepath.setAttribute("d", "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z;");
+    }
+  }
+
 	return (
 		<>
 		<div>
@@ -20,7 +35,6 @@ const Home = (props) => {
   <main class="w-full">
 
     <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
-      
 
       <div class="flex flex-wrap items-center justify-between py-6 parentformenu">
       <div class="w-1/2 md:w-auto transition duration-500 hover:scale-110">
@@ -29,15 +43,13 @@ const Home = (props) => {
           </Link>
         </div>
 
-        
-
         <label for="menu-toggle" class="cursor-pointer md:hidden block"><svg class="menu-mobile fill-current text-white"
             xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
             <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            <path id="forfancymenu" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
           </svg></label>
 
-        <input class="hidden menutogglecheck" type="checkbox" id="menu-toggle"/>
+        <input class="hidden menutogglecheck" type="checkbox" id="menu-toggle" onClick={menuToggler}/>
 
         <div class="hidden md:block w-full md:w-auto" id="menu">
           <nav

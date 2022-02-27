@@ -43,6 +43,21 @@ import PreciseFasteners from "./images/PastSponsors/PreciseFasteners.jfif";
 import ProspectGears from "./images/PastSponsors/ProspectGears.jfif";
 
 const SponsorMain = (props) => {
+
+  function menuToggler() {
+    console.log("testing");
+    const thepath = document.getElementById("forfancymenu");
+    const checkbox = document.getElementById("menu-toggle");
+    if (checkbox.checked == true)
+    {
+      thepath.setAttribute("d", "M0 3 h4 l6 6 l6 -6 h4 l-8 8 l8 8 h-4 l-6 -6 l-6 6 h-4 l8 -8 z;");
+    }
+    else
+    {
+      thepath.setAttribute("d", "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z;");
+    }
+  }
+
 	return (
 		<>
 		<div>
@@ -60,13 +75,13 @@ const SponsorMain = (props) => {
     </Link>
   </div>
 
-  <label for="menu-toggle" class="pointer-cursor md:hidden block"><svg class="fill-current text-white"
-      xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-      <title>menu</title>
-      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-    </svg></label>
+  <label for="menu-toggle" class="cursor-pointer md:hidden block"><svg class="menu-mobile fill-current text-white"
+            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>Menu</title>
+            <path id="forfancymenu" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg></label>
 
-  <input class="hidden" type="checkbox" id="menu-toggle"/>
+        <input class="hidden menutogglecheck" type="checkbox" id="menu-toggle" onClick={menuToggler}/>
 
   <div class="hidden md:block w-full md:w-auto" id="menu">
     <nav
@@ -81,7 +96,7 @@ const SponsorMain = (props) => {
         <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white" to={`${process.env.PUBLIC_URL}/contact`}>Contact
             Us</Link></li>
         <li class="md:ml-6 mt-3 md:mt-0">
-          <Link class="inline-block font-semibold px-6 py-4 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded mb-2 hover:text-black hover:bg-white"
+          <Link class="text-xl inline-block font-semibold px-6 py-4 text-white bg-red-600 md:bg-transparent md:text-white border border-white rounded mb-2 hover:text-black hover:bg-white"
             to={`${process.env.PUBLIC_URL}/sponsor`}>Sponsor Us</Link>
         </li>
       </ul>
@@ -107,7 +122,7 @@ const SponsorMain = (props) => {
       class="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
       <div class="md:flex md:items-center md:justify-center">
         <h2 class="text-xl font-bold text-white">View and Download our Sponsorship Brochure.</h2>
-        <a href={brochure}
+        <a href={brochure} target="_blank"
           class="px-8 py-4 bg-white text-red-600 rounded inline-block font-semibold md:ml-8 mt-4 md:mt-0">View the file!</a>
       </div>
     </section>
@@ -290,7 +305,7 @@ const SponsorMain = (props) => {
       class="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
       <div class="md:flex md:items-center md:justify-center">
         <h2 class="text-xl font-bold text-white">Help bring our vehicles to life! <br class="block md:hidden"/>Sponsor Us!</h2>
-        <a href="#"
+        <a href="https://forms.gle/WxYMfB1QTn17TZaW9" target="_blank"
           class="px-8 py-4 bg-white text-red-600 rounded inline-block font-semibold md:ml-8 mt-4 md:mt-0">Fill the form!</a>
       </div>
     </section>
@@ -413,7 +428,7 @@ const SponsorMain = (props) => {
 
           </ul>
 
-          <a class="mt-8 inline-block font-semibold text-white bg-blue-600 md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
+          <a class="mt-8 inline-block font-semibold text-white md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
                   href={brochure} target="_blank">View and Download our Sponsorship Brochure!</a>
 
           <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2022<br class="hidden lg:block"/> All Rights Reserved.

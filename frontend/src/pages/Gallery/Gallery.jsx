@@ -6,6 +6,21 @@ import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf"
 
 
 const Gallery = (props) => {
+
+  function menuToggler() {
+    console.log("testing");
+    const thepath = document.getElementById("forfancymenu");
+    const checkbox = document.getElementById("menu-toggle");
+    if (checkbox.checked == true)
+    {
+      thepath.setAttribute("d", "M0 3 h4 l6 6 l6 -6 h4 l-8 8 l8 8 h-4 l-6 -6 l-6 6 h-4 l8 -8 z;");
+    }
+    else
+    {
+      thepath.setAttribute("d", "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z;");
+    }
+  }
+
 	return (
 		<>
 		<div>
@@ -23,28 +38,32 @@ const Gallery = (props) => {
           </Link>
         </div>
 
-        <label for="menu-toggle" class="pointer-cursor md:hidden block"><svg class="fill-current text-white"
+        <label for="menu-toggle" class="cursor-pointer md:hidden block"><svg class="menu-mobile fill-current text-white"
             xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-            <title>menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            <title>Menu</title>
+            <path id="forfancymenu" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
           </svg></label>
 
-        <input class="hidden" type="checkbox" id="menu-toggle"/>
+        <input class="hidden menutogglecheck" type="checkbox" id="menu-toggle" onClick={menuToggler}/>
 
         <div class="hidden md:block w-full md:w-auto" id="menu">
           <nav
-            class="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
+            class="w-full bg-white/95 md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
             <ul class="md:flex items-center">
-              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white"
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
                   to={`${process.env.PUBLIC_URL}/team`}>Our Team</Link></li>
-              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white"
+              <hr class="md:hidden"/>
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
                   to={`${process.env.PUBLIC_URL}/competitions`}>Competitions</Link></li>
-              <li class="md:ml-4 md:hidden lg:block"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white"
+              <hr class="md:hidden"/>
+              <li class="md:ml-4 md:hidden lg:block"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
                   to={`${process.env.PUBLIC_URL}/merch`}>Merch</Link></li>
-              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white" to={`${process.env.PUBLIC_URL}/contact`}>Contact
+              <hr class="md:hidden"/>
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline" to={`${process.env.PUBLIC_URL}/contact`}>Contact
                   Us</Link></li>
+                  <hr class="md:hidden"/>
               <li class="md:ml-6 mt-3 md:mt-0">
-                <Link class="inline-block font-semibold px-6 py-4 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded mb-2 hover:text-black hover:bg-white"
+                <Link class="inline-block font-semibold px-6 py-4 text-white bg-red-600 md:bg-transparent md:text-white md:border md:border-white rounded mb-2 hover:text-red-500 hover:bg-white"
                   to={`${process.env.PUBLIC_URL}/sponsor`}>Sponsor Us</Link>
               </li>
             </ul>
@@ -58,24 +77,18 @@ const Gallery = (props) => {
     <section class="relative bg-gray-900 text-center text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w lg:px-8">
-          <h2 class="text-4xl leading-tight font-bold mt-4 pt-10">Gallery</h2>
+          <h2 class="text-4xl leading-tight font-bold mt-8 md:mt-6 pt-10">Gallery</h2>
           <br/>
           <p class="mt-2 leading-relaxed text-white pb-0 mb-0 text-xl">
-              You can now buy our merch! You have to be a VJTI student to buy them.
+              Glimpses into our world.
           </p>
         </div>
       </div>
     </section>
 
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Merch</h2>
-        </div>
-        
-      </div>
       <p>
-          merch items?
+          Images Placeholder
         </p>
     </section>
 
@@ -198,7 +211,7 @@ const Gallery = (props) => {
 
           </ul>
 
-          <a class="mt-8 inline-block font-semibold text-white bg-blue-600 md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
+          <a class="mt-8 inline-block font-semibold text-white md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
                   href={brochure} target="_blank">View and Download our Sponsorship Brochure!</a>
 
           <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2022<br class="hidden lg:block"/> All Rights Reserved.
