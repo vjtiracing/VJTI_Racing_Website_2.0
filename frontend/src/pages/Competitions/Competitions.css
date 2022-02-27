@@ -112,3 +112,27 @@
   .dark-blue{
     background-color: #084c61;
   }
+  
+
+  .menu-mobile path {
+    transition: 2s;
+  -webkit-transition: 2s;
+  }
+
+.menu-mobile:hover path{
+    transition: 2s;
+  -webkit-transition: 2s;
+  stroke: rgb(255, 255, 255);
+  }
+
+  .menu-mobile:active path{
+    transition: 2s;
+  -webkit-transition: 2s;
+    d: path("M0 3 h4 l6 6 l6 -6 h4 l-8 8 l8 8 h-4 l-6 -6 l-6 6 h-4 l8 -8 z");
+  }
+
+  .menu-mobile path {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: 0.2s;
+  }
