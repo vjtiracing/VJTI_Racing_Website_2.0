@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import "./Gallery.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf"
+import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf";
+
+import img1 from "./images/GalleryPics/Team.jpg";
+import img2 from "./images/GalleryPics/Track1.jpg";
+import img3 from "./images/GalleryPics/Track2.jpg";
+import img4 from "./images/GalleryPics/Track3.jpg";
+import img5 from "./images/GalleryPics/Track4.jpg";
+import img6 from "./images/GalleryPics/Track5.png";
+import img7 from "./images/GalleryPics/Track6.jpg";
 
 
 const Gallery = (props) => {
@@ -86,10 +94,55 @@ const Gallery = (props) => {
       </div>
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
-      <p>
-          Images Placeholder
-        </p>
+    <section class="relative bg-gray-100 px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 pt-8 lg:pt-16">
+    <section class="overflow-hidden text-gray-700 pb-10">
+  <div class="container px-5 py-2 mx-auto lg:pt-8 lg:px-32">
+    <div class="flex flex-wrap -m-1 md:-m-2">
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img1}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img2}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img3}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img4}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img5}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img6}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img7}/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     </section>
 
 

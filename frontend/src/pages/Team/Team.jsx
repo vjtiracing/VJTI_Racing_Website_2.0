@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import "./Team.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf"
+import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf";
+
+import Pranav from "./images/Pranav_Captain.jfif";
+import Prahlad from "./images/Prahlad_ViceCaptain.jfif";
+import Ratik from "./images/RatikSH.png";
 
 
 const Team = (props) => {
@@ -95,6 +99,8 @@ const Team = (props) => {
       </div>
     </section>
 
+    <section class="bg-gray-100">
+
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full">
@@ -102,11 +108,38 @@ const Team = (props) => {
         </div>
         
       </div>
-      <p>
-          images of members
-        </p>
+      <div class="container mx-auto flex flex-wrap my-8 justify-center">
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="max-w-sm rounded overflow-hidden shadow-xl hover:shadow-2xl rounded card" >
+          <img class="w-full h-96 object-cover" src={Pranav} alt="Sunset in the mountains"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Jhon Smith</div>
+            <p class=" text-base">
+              Position
+            </p>
+          </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-xl hover:shadow-2xl rounded card">
+          <img class="w-full h-96 object-cover" src={Prahlad} alt="Sunset in the mountains"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Martin Colde</div>
+            <p class=" text-base">
+              Position
+            </p>
+          </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-xl hover:shadow-2xl rounded card">
+          <img class="w-full h-96 object-cover" src={Ratik} alt="Sunset in the mountains"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Willam Dee</div>
+            <p class=" text-base">
+              Position
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
-
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-8 lg:pb-16">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full">
@@ -117,6 +150,7 @@ const Team = (props) => {
       <p>
           To be released.
         </p>
+    </section>
     </section>
 
     <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24 ">
