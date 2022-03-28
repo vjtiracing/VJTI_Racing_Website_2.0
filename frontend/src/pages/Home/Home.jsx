@@ -218,11 +218,12 @@ const Home = (props) => {
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 yellow">
           <h2 class="text-3xl leading-tight font-bold mt-4">Our Achievements</h2>
-          <p class="mt-2 leading-relaxed">Aenean ut tellus tellus. Suspendisse potenti. Nullam tincidunt lacus tellus,
-            sed aliquam est vehicula a. Pellentesque consectetur condimentum nulla, eleifend condimentum purus vehicula
-            in. Donec convallis sollicitudin facilisis. Integer nisl ligula, accumsan non tincidunt ac, imperdiet in
-            enim. Donec efficitur ullamcorper metus, eu venenatis nunc. Nam eget neque tempus, mollis sem a, faucibus
-            mi.</p>
+          <p class="mt-2 leading-relaxed">VJTI Racing has a reputation of success and for good reason. We have consistently participated in the BAJA SAE Competition every year since the foundation of the club and won various accolades throughout the last 14 years.
+Apart from BAJA SAE, we have also participated and ranked in other competitions.
+In SUPRA SAE India 2016, we ranked 1st in Mumbai and 12th All Over India.
+2015, was one of the most successful years for VJTI Racing. We ranked 1st internationally in the BAJA South Africa 2015. We also received 1st prizes in Acceleration, Manoeuvrability, Hill Climb and Dynamic Performance.
+BAJA 2020, is a very recent affair.  We ranked 6th in Virtual Round and got AIR 26.
+</p>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
