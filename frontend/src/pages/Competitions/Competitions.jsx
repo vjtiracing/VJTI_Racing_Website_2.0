@@ -85,12 +85,14 @@ const Competitions = (props) => {
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">This Year - eBaja 2022!</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">This Year - eBAJA 2022!</h2>
         </div>
         
       </div>
-      <p>
-          info about ebaja
+      <p class="mt-5">
+      eBAJA is an intercollegiate design competition. Teams of students need to design and build an electric powered ATV. 
+This year we are participating in e-BAJA for the first time in the history of VJTI. Our team has secured AIR 4 in the Virtual Round in e-BAJA 2022. 
+
         </p>
     </section>
 
@@ -101,9 +103,97 @@ const Competitions = (props) => {
         </div>
         
       </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2021</h3>
       <p>
-          info about other comps
-        </p>
+      Baja SAE is an Collegiate Design Series competition run by the Society of Automotive Engineers International (SAE International). Teams of students from universities all over the world design and build small off-road cars.
+In 2021, we achieved <b>5th Rank in Manufacturing Event</b>, <b>6th Rank in Sales Presentation</b>, and <b>All India Rank 2nd (in RWD Category)</b>.
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2020</h3>
+      <p>
+      Secured <b>6th Rank in Virtual Presentation</b> and <b>Overall Rank 26th in India</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">ESI 2019</h3>
+      <p>
+      Enduro Student India is an off-road student design competition bred from the need to train engineering students on practical aspects of building something with their own hands and also train them on the science of team management. 
+We achieved <b>7th Rank in the Marketing Event</b>, <b>10th Rank in the Design Challenge</b>, and <b>14th in the Acceleration Event</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2018</h3>
+      <p>
+      <b>1st Rank in Sales Presentation</b>, <b>3rd in Virtual Evaluation</b>, and <b>4th in Cost Event</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2017</h3>
+      <p>
+      Accomplished <b>1st Rank in Acceleration</b>, <b>5th Rank in Business Presentation</b> and <b>Overall ranked 7th in India</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2016</h3>
+      <p>
+      Scored <b>3rd highest points</b> in the most ruthless suspension traction event. Ranked <b>9th in acceleration</b> among all 149 teams across the country.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">ESVC 2016</h3>
+      <p>
+      ESVC stands for Electric Solar Vehicle Championship. In ESVC 2016, we received <b>1st in acceleration event</b> and also received prizes in Business Presentation Round, Manoeuvrability Event and secured <b>AIR 7</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA South Africa 2015</h3>
+      <p>
+      <b>1st Rank among all International teams.</b> Ranked <b>1st in Dynamic Performance</b>. Ranked <b>2nd in Statics and Sales Event</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">Ecokart 2015</h3>
+      <p>
+      Ecokart is a competition in which the teams have to design and fabricate a single passenger Kart which is operated by a motor, AC or DC, where the source of running the motor is a battery. This will not only save the Organic Fuel but also help students to work on NO POLLUTION rides and future fuel.
+In Ecokart 2015, we ranked <b>2nd all over India</b> and won <b>Best Marketing Scope Award</b>, <b>Safest Kart Award</b> and <b>Most Synchronized Team Award</b>.
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">SUPRA 2014</h3>
+      <p>
+      SUPRA (Super Racing) SAEINDIA is a national-level engineering student competition where teams design and fabricate a Formula-style vehicle as per the design standards of SAE International.
+In SUPRA 2014, we won the <b>Business Presentation Award</b>. Ranked <b>1st in Mumbai</b> and <b>12th all over India</b>!
+
+
+      </p>
+      </div>
+      <div class="mt-5">
+      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2012</h3>
+      <p>
+      We received the <b>Raftaar Award for the “Most Dynamic Car”</b> and ranked <b>35th all over India</b>.
+
+
+      </p>
+      </div>
     </section>
 
     <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24 ">

@@ -98,11 +98,11 @@ const Home = (props) => {
     <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 yellow">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Welcome to the Racing Club of VJTI, Matunga</h2>
-          <p class="text-lg mt-4 font-semibold">Excellence in Engineering and Racing etc</p>
-          <p class="mt-2 leading-relaxed">Donec convallis sollicitudin facilisis. Integer nisl ligula, accumsan non
-            tincidunt ac, imperdiet in enim.
-            Donec efficitur ullamcorper metus, eu venenatis nunc. Nam eget neque tempus, mollis sem a, faucibus mi.</p>
+          <h2 class="text-3xl leading-tight font-bold mt-4">Welcome to VJTI Racing</h2>
+          <p class="text-lg mt-4 font-semibold">The Official SAE Collegiate Club of VJTI, Matunga</p>
+          <p class="mt-2 leading-relaxed">Established in 2008, VJTI Racing is a student organisation for automobile enthusiasts.
+It is a platform for young engineers to bring their innovative ideas into action that would contribute for a better future. We seek to be at par with the leading technology in the industry and implement those in the most effective and cost cutting ways in our project.
+</p>
         </div>
 
         <div class="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0 yellow">
@@ -111,8 +111,9 @@ const Home = (props) => {
               <div class="w-16 h-16 ball rounded-full"></div>
             </div>
             <div class="md:ml-8 mt-4 md:mt-0">
-              <h4 class="text-xl font-bold leading-tight">Lorem ipsum dolor sit amet</h4>
-              <p class="mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <h4 class="text-xl font-bold leading-tight">Innovation</h4>
+              <p class="mt-2 leading-relaxed">The club has always aimed at keeping the spirit of innovation and curiosity alive. We here, at VJTI Racing, encourage our members to be updated about and practice new methods and technologies, not only related to the Automotive industry, but also various other sectors related to tech and hands-on engineering.
+</p>
             </div>
           </div>
 
@@ -121,8 +122,9 @@ const Home = (props) => {
               <div class="w-16 h-16 ball rounded-full"></div>
             </div>
             <div class="md:ml-8 mt-4 md:mt-0">
-              <h4 class="text-xl font-bold leading-tight">Lorem ipsum dolor sit amet</h4>
-              <p class="mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <h4 class="text-xl font-bold leading-tight">Excellence</h4>
+              <p class="mt-2 leading-relaxed">VJTI Racing is a team of spirited individuals. Dedicated to achieving perfection in every single aspect of our work, our members develop a sense of attention to detail as well as team management. A youthful spark and the drive to engineer an end product to be proud of, is a vision shared by all the members of the club.
+</p>
             </div>
           </div>
         </div>
@@ -165,7 +167,7 @@ const Home = (props) => {
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 yellow">
           <h2 class="text-3xl leading-tight font-bold mt-4">About Us</h2>
-          <p class="mt-2 leading-relaxed">VJTI Racing is a group of dedicated undergraduates from VJTI with innovative ideas and passion for engineering. Ready to take on challenges of the automobile industry in the field of racing united under a non-corporate organization. Our vision is to expand and improve the skills of undergraduates by practical applications in designing, fabrication, and learn management beyond classroom education. We are constantly on a path of improvement and utilizing the best of our talents. We competed in various national and international competitions with the vehicles we build ourselves with sweat and blood.</p>
+          <p class="mt-2 leading-relaxed">VJTI Racing is a group of dedicated undergraduates from VJTI with innovative ideas and passion for engineering. Ready to take on challenges of the automobile industry in the field of racing, united under a non-corporate organization. Our vision is to expand and improve the skills of undergraduates by practical applications in designing, fabrication, and learn management beyond classroom education. We are constantly on a path of improvement and utilizing the best of our talents. We competed in various national and international competitions with the vehicles we build ourselves with our own sweat and blood.</p>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
@@ -180,11 +182,10 @@ const Home = (props) => {
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
           <h2 class="text-3xl leading-tight font-bold mt-4">About VJTI</h2>
-          <p class="mt-2 leading-relaxed">Aenean ut tellus tellus. Suspendisse potenti. Nullam tincidunt lacus tellus,
-            sed aliquam est vehicula a. Pellentesque consectetur condimentum nulla, eleifend condimentum purus vehicula
-            in. Donec convallis sollicitudin facilisis. Integer nisl ligula, accumsan non tincidunt ac, imperdiet in
-            enim. Donec efficitur ullamcorper metus, eu venenatis nunc. Nam eget neque tempus, mollis sem a, faucibus
-            mi.</p>
+          <p class="mt-2 leading-relaxed">Established in 1887 as Victoria Jubilee Technical Institute, VJTI Mumbai has pioneered India’s Engineering education, research and training ecosystem. VJTI has been constantly taking efforts in shifting itself from a training institute to a ‘Capacity Building Institute’ with focus on research, innovation, and technology for society.
+Located in South Mumbai, VJTI is an autonomous institution owned by Maharashtra State Government. The institute offers programs in engineering and technology at the diploma, degree, post-graduate and doctoral levels.
+VJTI is known for its high quality teaching, collaborative research, industry connect and strong alumni network.
+</p>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
@@ -198,12 +199,9 @@ const Home = (props) => {
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32 red-time">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 yellow">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our History</h2>
-          <p class="mt-2 leading-relaxed">Aenean ut tellus tellus. Suspendisse potenti. Nullam tincidunt lacus tellus,
-            sed aliquam est vehicula a. Pellentesque consectetur condimentum nulla, eleifend condimentum purus vehicula
-            in. Donec convallis sollicitudin facilisis. Integer nisl ligula, accumsan non tincidunt ac, imperdiet in
-            enim. Donec efficitur ullamcorper metus, eu venenatis nunc. Nam eget neque tempus, mollis sem a, faucibus
-            mi.</p>
+          <h2 class="text-3xl leading-tight font-bold mt-4">A Message From Our Founder - Noel Saldanha</h2>
+          <p class="mt-2 leading-relaxed">“What started as four FY B.Tech students ripping apart a Bajaj Chetak to build a Go-Kart (which eventually just went around in circles), turned into a passionate obsession that eventually led to VJTI having its first indigenously developed ATV in 2010. Ten years later, VJTI Racing has accomplished what we originally had in mind when we started out, bringing together young minds binded by their passion for automobiles to compete at the highest level of engineering competitions. Personally and professionally the experiences gained during the year at Team Motorbreath have been instrumental in all my successes since. As I look back, I wouldn't want to change one bit of my years as a student at VJTI, and only wish I could relive it once again. Wishing the Team and all the young minds that are and will be a part of the journey, even more successes in the future.”
+</p>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
@@ -238,11 +236,9 @@ BAJA 2020, is a very recent affair.  We ranked 6th in Virtual Round and got AIR 
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8">
           <h2 class="text-3xl leading-tight font-bold mt-4">Recent Events</h2>
-          <p class="mt-2 leading-relaxed">Aenean ut tellus tellus. Suspendisse potenti. Nullam tincidunt lacus tellus,
-            sed aliquam est vehicula a. Pellentesque consectetur condimentum nulla, eleifend condimentum purus vehicula
-            in. Donec convallis sollicitudin facilisis. Integer nisl ligula, accumsan non tincidunt ac, imperdiet in
-            enim. Donec efficitur ullamcorper metus, eu venenatis nunc. Nam eget neque tempus, mollis sem a, faucibus
-            mi.</p>
+          <p class="mt-2 leading-relaxed">With the vision to increase the scope and expanse of the club from not just the mechanical department but to circuital and other core departments as well, we are proud to be one of the key competitors in e-BAJA 2022, for the first time in the history of VJTI.
+The team is working on producing an electric off road vehicle, and has secured AIR 4 in the Virtual Round.
+.</p>
         </div>
 
         <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
