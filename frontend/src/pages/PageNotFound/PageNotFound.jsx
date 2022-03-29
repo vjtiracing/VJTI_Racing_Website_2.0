@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "./Competitions.css";
+import "./PageNotFound.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
+import img404 from "./images/404_type2.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf"
+import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf";
 
 
-
-const Competitions = (props) => {
+const Gallery = (props) => {
 
   function menuToggler() {
     console.log("testing");
@@ -30,16 +30,16 @@ const Competitions = (props) => {
 
   <main class="w-full">
 
-  <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64  bg-gray-900">
+    <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64  bg-gray-900">
 
-<div class="flex flex-wrap items-center justify-between py-6 border-b">
-  <div class="w-1/2 md:w-auto transition duration-500 hover:scale-110">
-  <Link to="/" class="">
-      <img src={logo} width="175"/>
-    </Link>
-  </div>
+      <div class="flex flex-wrap items-center justify-between py-6">
+        <div class="w-1/2 md:w-auto transition duration-500 hover:scale-110">
+        <Link to="/" class="">
+            <img src={logo} width="175"/>
+          </Link>
+        </div>
 
-  <label for="menu-toggle" class="cursor-pointer md:hidden block"><svg class="menu-mobile fill-current text-white"
+        <label for="menu-toggle" class="cursor-pointer md:hidden block"><svg class="menu-mobile fill-current text-white"
             xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
             <title>Menu</title>
             <path id="forfancymenu" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -47,154 +47,39 @@ const Competitions = (props) => {
 
         <input class="hidden menutogglecheck" type="checkbox" id="menu-toggle" onClick={menuToggler}/>
 
-  <div class="hidden md:block w-full md:w-auto" id="menu">
-    <nav
-      class="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
-      <ul class="md:flex items-center">
-        <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white"
-            to="/team">Our Team</Link></li>
-        <li class="md:ml-4"><Link class="text-xl py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white"
-            to="/competitions">Competitions</Link></li>
-        <li class="md:ml-4 md:hidden lg:block"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white"
-            to="/merch">Merch</Link></li>
-        <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent hover:border-white" to="/contact">Contact
-            Us</Link></li>
-        <li class="md:ml-6 mt-3 md:mt-0">
-          <Link class="inline-block font-semibold px-6 py-4 text-white bg-red-600 md:bg-transparent md:text-white border border-white rounded mb-2 hover:text-black hover:bg-white"
-            to="/sponsor">Sponsor Us</Link>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</div>
-</header>
-
-    <br></br>
-
-    <section class="relative bg-gray-900 text-center text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full lg:w lg:px-8">
-          <h2 class="text-4xl leading-tight font-bold mt-4 pt-10">Competitions</h2>
-          <br/>
-          <p class="mt-2 leading-relaxed text-white pb-0 mb-0 text-xl">Competitions provide challenges, and we conquer them by putting
-          our pedal to the metal!</p>
+        <div class="hidden md:block w-full md:w-auto" id="menu">
+          <nav
+            class="w-full bg-white/95 md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
+            <ul class="md:flex items-center">
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
+                  to="/team">Our Team</Link></li>
+              <hr class="md:hidden"/>
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
+                  to="/competitions">Competitions</Link></li>
+              <hr class="md:hidden"/>
+              <li class="md:ml-4 md:hidden lg:block"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
+                  to="/merch">Merch</Link></li>
+              <hr class="md:hidden"/>
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline" to="/contact">Contact
+                  Us</Link></li>
+                  <hr class="md:hidden"/>
+              <li class="md:ml-6 mt-3 md:mt-0">
+                <Link class="inline-block font-semibold px-6 py-4 text-white bg-red-600 md:bg-transparent md:text-white md:border md:border-white rounded mb-2 hover:text-red-500 hover:bg-white"
+                  to="/sponsor">Sponsor Us</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+    </header>
+
+    <section class="relative bg-gray-900 text-center text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-16">
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">This Year - eBAJA 2022!</h2>
-        </div>
-        
-      </div>
-      <p class="mt-5">
-      eBAJA is an intercollegiate design competition. Teams of students need to design and build an electric powered ATV. 
-This year we are participating in e-BAJA for the first time in the history of VJTI. Our team has secured AIR 4 in the Virtual Round in e-BAJA 2022. 
-
-        </p>
+    <section class="relative w-full bg-gray-100 px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 pt-8 lg:pt-16">
+    <img src={img404} class="object-center md:px-20 lg:px-28 pb-10" width="90%" alt="img"></img>
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-8 lg:pb-16">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Past Competitions</h2>
-        </div>
-        
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2021</h3>
-      <p>
-      Baja SAE is an Collegiate Design Series competition run by the Society of Automotive Engineers International (SAE International). Teams of students from universities all over the world design and build small off-road cars.
-In 2021, we achieved <b>5th Rank in Manufacturing Event</b>, <b>6th Rank in Sales Presentation</b>, and <b>All India Rank 2nd (in RWD Category)</b>.
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2020</h3>
-      <p>
-      Secured <b>6th Rank in Virtual Presentation</b> and <b>Overall Rank 26th in India</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">ESI 2019</h3>
-      <p>
-      Enduro Student India is an off-road student design competition bred from the need to train engineering students on practical aspects of building something with their own hands and also train them on the science of team management. 
-We achieved <b>7th Rank in the Marketing Event</b>, <b>10th Rank in the Design Challenge</b>, and <b>14th in the Acceleration Event</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2018</h3>
-      <p>
-      <b>1st Rank in Sales Presentation</b>, <b>3rd in Virtual Evaluation</b>, and <b>4th in Cost Event</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2017</h3>
-      <p>
-      Accomplished <b>1st Rank in Acceleration</b>, <b>5th Rank in Business Presentation</b> and <b>Overall ranked 7th in India</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2016</h3>
-      <p>
-      Scored <b>3rd highest points</b> in the most ruthless suspension traction event. Ranked <b>9th in acceleration</b> among all 149 teams across the country.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">ESVC 2016</h3>
-      <p>
-      ESVC stands for Electric Solar Vehicle Championship. In ESVC 2016, we received <b>1st in acceleration event</b> and also received prizes in Business Presentation Round, Manoeuvrability Event and secured <b>AIR 7</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA South Africa 2015</h3>
-      <p>
-      <b>1st Rank among all International teams.</b> Ranked <b>1st in Dynamic Performance</b>. Ranked <b>2nd in Statics and Sales Event</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">Ecokart 2015</h3>
-      <p>
-      Ecokart is a competition in which the teams have to design and fabricate a single passenger Kart which is operated by a motor, AC or DC, where the source of running the motor is a battery. This will not only save the Organic Fuel but also help students to work on NO POLLUTION rides and future fuel.
-In Ecokart 2015, we ranked <b>2nd all over India</b> and won <b>Best Marketing Scope Award</b>, <b>Safest Kart Award</b> and <b>Most Synchronized Team Award</b>.
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">SUPRA 2014</h3>
-      <p>
-      SUPRA (Super Racing) SAEINDIA is a national-level engineering student competition where teams design and fabricate a Formula-style vehicle as per the design standards of SAE International.
-In SUPRA 2014, we won the <b>Business Presentation Award</b>. Ranked <b>1st in Mumbai</b> and <b>12th all over India</b>!
-
-
-      </p>
-      </div>
-      <div class="mt-5">
-      <h3 class="text-2xl leading-tight font-bold mt-4">BAJA 2012</h3>
-      <p>
-      We received the <b>Raftaar Award for the “Most Dynamic Car”</b> and ranked <b>35th all over India</b>.
-
-
-      </p>
-      </div>
-    </section>
 
     <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24 ">
       <div class="flex flex-col md:flex-row">
@@ -335,4 +220,4 @@ In SUPRA 2014, we won the <b>Business Presentation Award</b>. Ranked <b>1st in M
 	);
 };
 
-export default Competitions;
+export default Gallery;
