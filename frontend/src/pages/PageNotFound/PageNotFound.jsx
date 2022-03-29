@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./PageNotFound.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
+import img404 from "./images/404_type2.png";
 import { Link } from 'react-router-dom';
 import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf";
 
@@ -33,7 +34,7 @@ const Gallery = (props) => {
 
       <div class="flex flex-wrap items-center justify-between py-6">
         <div class="w-1/2 md:w-auto transition duration-500 hover:scale-110">
-        <Link to={process.env.PUBLIC_URL} class="">
+        <Link to="/" class="">
             <img src={logo} width="175"/>
           </Link>
         </div>
@@ -51,20 +52,20 @@ const Gallery = (props) => {
             class="w-full bg-white/95 md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
             <ul class="md:flex items-center">
               <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
-                  to={`${process.env.PUBLIC_URL}/team`}>Our Team</Link></li>
+                  to="/team">Our Team</Link></li>
               <hr class="md:hidden"/>
               <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
-                  to={`${process.env.PUBLIC_URL}/competitions`}>Competitions</Link></li>
+                  to="/competitions">Competitions</Link></li>
               <hr class="md:hidden"/>
               <li class="md:ml-4 md:hidden lg:block"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline"
-                  to={`${process.env.PUBLIC_URL}/merch`}>Merch</Link></li>
+                  to="/merch">Merch</Link></li>
               <hr class="md:hidden"/>
-              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline" to={`${process.env.PUBLIC_URL}/contact`}>Contact
+              <li class="md:ml-4"><Link class="py-2 inline-block md:text-white md:px-2 font-semibold border-b-8 border-transparent md:hover:border-white no-underline hover:underline md:hover:no-underline" to="/contact">Contact
                   Us</Link></li>
                   <hr class="md:hidden"/>
               <li class="md:ml-6 mt-3 md:mt-0">
                 <Link class="inline-block font-semibold px-6 py-4 text-white bg-red-600 md:bg-transparent md:text-white md:border md:border-white rounded mb-2 hover:text-red-500 hover:bg-white"
-                  to={`${process.env.PUBLIC_URL}/sponsor`}>Sponsor Us</Link>
+                  to="/sponsor">Sponsor Us</Link>
               </li>
             </ul>
           </nav>
@@ -75,8 +76,8 @@ const Gallery = (props) => {
     <section class="relative bg-gray-900 text-center text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-16">
     </section>
 
-    <section class="relative bg-gray-100 px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 pt-8 lg:pt-16">
-    404 Image comes here.
+    <section class="relative w-full bg-gray-100 px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 pt-8 lg:pt-16">
+    <img src={img404} class="object-center md:px-20 lg:px-28 pb-10" width="90%" alt="img"></img>
     </section>
 
 
@@ -91,12 +92,12 @@ const Gallery = (props) => {
         <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">Quick Links</h5>
           <ul class="mt-4">
-            <li class="mt-2"><Link to={`${process.env.PUBLIC_URL}/team`} title="" class="opacity-75 hover:opacity-100">Our Team</Link></li>
-            <li class="mt-2"><Link to={`${process.env.PUBLIC_URL}/competitions`} title="" class="opacity-75 hover:opacity-100">Competitions</Link></li>
-            <li class="mt-2"><Link to={`${process.env.PUBLIC_URL}/merch`} title="" class="opacity-75 hover:opacity-100">Merch</Link></li>
-            <li class="mt-2"><Link to={`${process.env.PUBLIC_URL}/contact`} title="" class="opacity-75 hover:opacity-100">Contact</Link></li>
-            <li class="mt-2"><Link to={`${process.env.PUBLIC_URL}/sponsor`} title="" class="opacity-75 hover:opacity-100">Sponsorship</Link></li>
-            <li class="mt-2"><Link to={`${process.env.PUBLIC_URL}/gallery`} title="" class="opacity-75 hover:opacity-100">Gallery</Link></li>
+            <li class="mt-2"><Link to="/team" title="" class="opacity-75 hover:opacity-100">Our Team</Link></li>
+            <li class="mt-2"><Link to="/competitions" title="" class="opacity-75 hover:opacity-100">Competitions</Link></li>
+            <li class="mt-2"><Link to="/merch" title="" class="opacity-75 hover:opacity-100">Merch</Link></li>
+            <li class="mt-2"><Link to="/contact" title="" class="opacity-75 hover:opacity-100">Contact</Link></li>
+            <li class="mt-2"><Link to="/sponsor" title="" class="opacity-75 hover:opacity-100">Sponsorship</Link></li>
+            <li class="mt-2"><Link to="/gallery" title="" class="opacity-75 hover:opacity-100">Gallery</Link></li>
           </ul>
         </div>
 

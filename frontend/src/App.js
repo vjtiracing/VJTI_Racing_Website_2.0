@@ -15,23 +15,23 @@ import PageNotFound from './pages/PageNotFound/PageNotFound'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/VJTI_Racing_Website_2.0">
 			<div>
 				<Routes>
-        <Route path={process.env.PUBLIC_URL} element={<Home />}>
+        <Route path="/" element={<Home />}>
         <Route index element={<Home />} />
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/sponsor`} element={<SponsorMain />}>
+        <Route path="/sponsor" element={<SponsorMain />}>
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/competitions`} element={<Competitions />}>
+        <Route path="/competitions" element={<Competitions />}>
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/team`} element={<Team />}>
+        <Route path="/team" element={<Team />}>
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/merch`} element={<Merch />}>
+        <Route path="/merch" element={<Merch />}>
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/gallery`} element={<Gallery />}>
+        <Route path="/gallery" element={<Gallery />}>
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/contact`} element={<ContactUs />}>
+        <Route path="/contact" element={<ContactUs />}>
         </Route>
         <Route path="*" element={<PageNotFound/>} />
 				</Routes>
