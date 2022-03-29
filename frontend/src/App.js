@@ -11,6 +11,7 @@ import Team from "./pages/Team/Team"
 import Merch from "./pages/Merch/Merch"
 import Gallery from './pages/Gallery/Gallery';
 import ContactUs from './pages/ContactUs/ContactUs';
+import PageNotFound from './pages/PageNotFound/PageNotFound'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         </Route>
         <Route path={`${process.env.PUBLIC_URL}/contact`} element={<ContactUs />}>
         </Route>
+        <Route path="*" element={<PageNotFound/>} />
 				</Routes>
 			</div>
 		</BrowserRouter>
