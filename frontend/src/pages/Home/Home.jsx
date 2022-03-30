@@ -7,6 +7,13 @@ import manufacturing from "./images/manufacturing.jpg";
 import racing from "./images/racing.png";
 import { Link } from 'react-router-dom';
 
+import img1 from "./images/testimg2.png"
+import img2 from "./images/testimg4.jpg"
+import vid from "./videos/VRWeb2.mp4"
+import team from "./images/lec5.jpg"
+
+import award from "./images/award2.jpg"
+
 import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf"
 
 
@@ -132,7 +139,7 @@ It is a platform for young engineers to bring their innovative ideas into action
 
       <div class="md:flex md:flex-wrap mt-24 text-center md:-mx-4">
         <div class="md:w-1/2 md:px-4 lg:w-1/3">
-          <div class="bg-white rounded-lg border border-yellow p-8 ball">
+          <div class="bg-white rounded-lg border border-yellow p-8 ball lg:min-h-full">
             <img src={designing} alt="" class="h-20 mx-auto"/>
 
             <h4 class="text-xl font-bold mt-4">1. Designing</h4>
@@ -142,7 +149,7 @@ It is a platform for young engineers to bring their innovative ideas into action
         </div>
 
         <div class="md:w-1/2 md:px-4 mt-4 md:mt-0 lg:w-1/3">
-          <div class="bg-white rounded-lg border border-yellow ball p-8">
+          <div class="bg-white rounded-lg border border-yellow ball p-8 lg:min-h-full">
             <img src={manufacturing} alt="" class="h-20 mx-auto"/>
 
             <h4 class="text-xl font-bold mt-4">2. Manufacturing</h4>
@@ -151,8 +158,8 @@ It is a platform for young engineers to bring their innovative ideas into action
           </div>
         </div>
 
-        <div class="md:w-1/2 md:px-4 mt-4 md:mt-8 lg:mt-0 lg:w-1/3">
-          <div class="bg-white rounded-lg border border-yellow ball p-8">
+        <div class="md:w-1/2 md:px-4 mt-4 md:mt-8 lg:mt-0 lg:w-1/3 ">
+          <div class="bg-white rounded-lg border border-yellow ball p-8 lg:min-h-full">
             <img src={racing} alt="" class="h-20 mx-auto"/>
 
             <h4 class="text-xl font-bold mt-4">3. Racing</h4>
@@ -163,91 +170,118 @@ It is a platform for young engineers to bring their innovative ideas into action
       </div>
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32 dark-blue">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full lg:w-1/2 lg:px-8 yellow">
+    <section class="relative bg-gray-100 px-4 sm:px-8 py-16 dark-blue lg:px-0 lg:py-0">
+
+    <div class="bg-fixed" style={{ backgroundImage:`url(${img1})`, backgroundRepeat: "no-repeat"}}>
+
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2  yellow dark-blue lg:pl-16 xl:pl-40 2xl:pl-64 lg:py-32 lg:pr-4 xl:pr-10 2xl:pr-20">
           <h2 class="text-3xl leading-tight font-bold mt-4">About Us</h2>
           <p class="mt-2 leading-relaxed">VJTI Racing is a group of dedicated undergraduates from VJTI with innovative ideas and passion for engineering. Ready to take on challenges of the automobile industry in the field of racing, united under a non-corporate organization. Our vision is to expand and improve the skills of undergraduates by practical applications in designing, fabrication, and learn management beyond classroom education. We are constantly on a path of improvement and utilizing the best of our talents. We competed in various national and international competitions with the vehicles we build ourselves with our own sweat and blood.</p>
         </div>
-
-        <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-          <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
-
-          <p class="italic text-sm mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
+        <div class="w-full lg:w-1/2">
         </div>
-      </div>
+          
+        </div>
+
+    </div>
+        
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32 cyan-time">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full lg:w-1/2 lg:px-8">
-          <h2 class="text-3xl leading-tight font-bold mt-4">About VJTI</h2>
+    <section class="relative bg-gray-100 px-4 sm:px-8 py-16  lg:px-0 lg:py-0 cyan-time">
+
+    <div class="bg-fixed" style={{ backgroundImage:`url(${img2})`, backgroundRepeat: "no-repeat"}}>
+
+      <div class="flex flex-col lg:flex-row-reverse">
+        <div class="w-full lg:w-1/2  cyan-time lg:pl-16 xl:pl-40 2xl:pl-64 lg:py-32 lg:pr-4 xl:pr-10 2xl:pr-20">
+        <h2 class="text-3xl leading-tight font-bold mt-4">About VJTI</h2>
           <p class="mt-2 leading-relaxed">Established in 1887 as Victoria Jubilee Technical Institute, VJTI Mumbai has pioneered India’s Engineering education, research and training ecosystem. VJTI has been constantly taking efforts in shifting itself from a training institute to a ‘Capacity Building Institute’ with focus on research, innovation, and technology for society.
 Located in South Mumbai, VJTI is an autonomous institution owned by Maharashtra State Government. The institute offers programs in engineering and technology at the diploma, degree, post-graduate and doctoral levels.
 VJTI is known for its high quality teaching, collaborative research, industry connect and strong alumni network.
 </p>
         </div>
-
-        <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-          <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
-
-          <p class="italic text-sm mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
+        <div class="w-full lg:w-1/2">
         </div>
-      </div>
+          
+        </div>
+
+    </div>
+        
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32 red-time">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full lg:w-1/2 lg:px-8 yellow">
+    
+<section class="relative bg-gray-100 px-4 sm:px-8 red-time lg:px-0 lg:py-0">
+
+    <div>
+
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-5/12 z-40 yellow  red-time lg:pl-4 xl:pl-10 2xl:pl-20 lg:py-32 lg:pr-4 xl:pr-10 2xl:pr-20">
           <h2 class="text-3xl leading-tight font-bold mt-4">A Message From Our Founder - Noel Saldanha</h2>
           <p class="mt-2 leading-relaxed">“What started as four FY B.Tech students ripping apart a Bajaj Chetak to build a Go-Kart (which eventually just went around in circles), turned into a passionate obsession that eventually led to VJTI having its first indigenously developed ATV in 2010. Ten years later, VJTI Racing has accomplished what we originally had in mind when we started out, bringing together young minds binded by their passion for automobiles to compete at the highest level of engineering competitions. Personally and professionally the experiences gained during the year at Team Motorbreath have been instrumental in all my successes since. As I look back, I wouldn't want to change one bit of my years as a student at VJTI, and only wish I could relive it once again. Wishing the Team and all the young minds that are and will be a part of the journey, even more successes in the future.”
 </p>
         </div>
-
-        <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-          <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
-
-          <p class="italic text-sm mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
+        <div class="w-full lg:w-7/12">
+        <video
+    autoPlay
+    loop
+    muted
+    src={vid}
+    class="fixed right-0 hidden lg:block absolute z-10 max-w-full max-h-full object-none"
+  >
+    Your browser does not support the video tag.
+  </video>
         </div>
-      </div>
+        
+        </div>
+
+    </div>
+        
     </section>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32 dark-time">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full lg:w-1/2 lg:px-8 yellow">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Achievements</h2>
-          <p class="mt-2 leading-relaxed">VJTI Racing has a reputation of success and for good reason. We have consistently participated in the BAJA SAE Competition every year since the foundation of the club and won various accolades throughout the last 14 years.
+    <section class="relative bg-gray-100 px-4 sm:px-8 py-16  lg:px-0 lg:py-0 dark-time">
+
+<div class="bg-fixed object-right" style={{ backgroundImage:`url(${award})`, backgroundRepeat: "no-repeat"}}>
+
+  <div class="flex flex-col lg:flex-row-reverse">
+    <div class="w-full lg:w-1/2  dark-time lg:pl-16 xl:pl-40 2xl:pl-64 lg:py-32 lg:pr-4 xl:pr-10 2xl:pr-20 yellow">
+    <h2 class="text-3xl leading-tight font-bold mt-4">Our Achievements</h2>
+      <p class="mt-2 leading-relaxed">VJTI Racing has a reputation of success and for good reason. We have consistently participated in the BAJA SAE Competition every year since the foundation of the club and won various accolades throughout the last 14 years.
 Apart from BAJA SAE, we have also participated and ranked in other competitions.
 In SUPRA SAE India 2016, we ranked 1st in Mumbai and 12th All Over India.
 2015, was one of the most successful years for VJTI Racing. We ranked 1st internationally in the BAJA South Africa 2015. We also received 1st prizes in Acceleration, Manoeuvrability, Hill Climb and Dynamic Performance.
 BAJA 2020, is a very recent affair.  We ranked 6th in Virtual Round and got AIR 26.
 </p>
-        </div>
+    </div>
+    <div class="w-full lg:w-1/2">
+    </div>
+      
+    </div>
 
-        <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-          <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
+</div>
+    
+</section>
+    
+<section class="relative bg-gray-100 px-4 sm:px-8 py-16 ball lg:px-0 lg:py-0">
 
-          <p class="italic text-sm mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
-        </div>
-      </div>
-    </section>
+    <div class="bg-fixed" style={{ backgroundImage:`url(${team})`, backgroundRepeat: "no-repeat"}}>
 
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32 ball">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full lg:w-1/2 lg:px-8">
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2  ball lg:pl-16 xl:pl-40 2xl:pl-64 lg:py-32 lg:pr-4 xl:pr-10 2xl:pr-20">
           <h2 class="text-3xl leading-tight font-bold mt-4">Recent Events</h2>
           <p class="mt-2 leading-relaxed">With the vision to increase the scope and expanse of the club from not just the mechanical department but to circuital and other core departments as well, we are proud to be one of the key competitors in e-BAJA 2022, for the first time in the history of VJTI.
-The team is working on producing an electric off road vehicle, and has secured AIR 4 in the Virtual Round.
-.</p>
+The team is working on producing an electric off road vehicle, and has secured AIR 4 in the Virtual Round.</p>
+        </div>
+        <div class="w-full lg:w-1/2">
+        </div>
+          
         </div>
 
-        <div class="w-full md:max-w-md md:mx-auto lg:w-1/2 lg:px-8 mt-12 mt:md-0">
-          <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
-
-          <p class="italic text-sm mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
-        </div>
-      </div>
+    </div>
+        
     </section>
+    
+
+    
 
     <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24 ">
       <div class="flex flex-col md:flex-row">
