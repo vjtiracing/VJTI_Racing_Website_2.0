@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./PageNotFound.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import img404 from "./images/404_type2.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/VJTI_Racing_Sponsorship_Brochure_2021-22.pdf";
+import brochure from "./files/Brochure2022.pdf";
 
 
 const Gallery = (props) => {
@@ -12,7 +12,7 @@ const Gallery = (props) => {
     console.log("testing");
     const thepath = document.getElementById("forfancymenu");
     const checkbox = document.getElementById("menu-toggle");
-    if (checkbox.checked == true)
+    if (checkbox.checked === true)
     {
       thepath.setAttribute("d", "M0 3 h4 l6 6 l6 -6 h4 l-8 8 l8 8 h-4 l-6 -6 l-6 6 h-4 l8 -8 z;");
     }
@@ -35,7 +35,7 @@ const Gallery = (props) => {
       <div class="flex flex-wrap items-center justify-between py-6">
         <div class="w-1/2 md:w-auto transition duration-500 hover:scale-110">
         <Link to="/" class="">
-            <img src={logo} width="175"/>
+            <img src={logo} width="175" alt="VJTI Racing Logo"/>
           </Link>
         </div>
 
@@ -82,14 +82,15 @@ const Gallery = (props) => {
 
 
     <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24 ">
-      <div class="flex flex-col md:flex-row">
+      <div class="flex flex-col fixfoot:flex-row">
         <div class="w-full lg:w-5/12 lg:mx-2 lg:pr-8">
           <h3 class="font-bold text-2xl -pt-10 -mt-5">VJTI Racing</h3>
           <p class="text-gray-400 pb-5">The club for VJTI's automobile enthusiasts.</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
         </div>
         
-        <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
+        <div class="w-full fixfoot:w-1/6 mt-8 fixfoot:mt-0 lg:mx-4">
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">Quick Links</h5>
           <ul class="mt-4">
             <li class="mt-2"><Link to="/team" title="" class="opacity-75 hover:opacity-100">Our Team</Link></li>
@@ -101,11 +102,11 @@ const Gallery = (props) => {
           </ul>
         </div>
 
-        <div class="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
+        <div class="w-full fixfoot:w-2/6 mt-8 fixfoot:mt-0 fixfoot:mx-4 lg:pr-8">
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">Contact Details</h5>
           <ul class="mt-4">
             <li>
-              <a href="https://www.google.com/maps?ll=19.023716,72.856547&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=8343284557969155606" title="" target="_blank" class="block flex items-center opacity-75 hover:opacity-100">
+              <a href="https://www.google.com/maps?ll=19.023716,72.856547&z=14&t=m&hl=en&gl=IN&mapclient=embed&cid=8343284557969155606" title="" target="_blank" rel="noreferrer noopener" class="block flex items-center opacity-75 hover:opacity-100">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                     class="fill-current">
@@ -120,7 +121,7 @@ const Gallery = (props) => {
             </li>
             
             <li class="mt-4">
-              <a href="tel:99999999999" title="" class="block flex items-center opacity-75 hover:opacity-100">
+              <a href="tel:8828186508" title="" class="block flex items-center opacity-75 hover:opacity-100">
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                     class="fill-current">
@@ -151,12 +152,12 @@ const Gallery = (props) => {
           </ul>
         </div>
 
-        <div class="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4">
+        <div class="w-full md:w-1/2 fixfoot:w-1/4 mt-8 fixfoot:mt-0 fixfoot:mx-4">
         
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">We're Social!</h5>
           <ul class="mt-4 flex">
             <li>
-              <a href="https://www.facebook.com/vjtiracing" target="_blank" title="">
+              <a href="https://www.facebook.com/vjtiracing" target="_blank" rel="noreferrer noopener" title="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current opacity-75 hover:opacity-100">
                   <path
                     d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592	c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20	c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z" />
@@ -165,7 +166,7 @@ const Gallery = (props) => {
             </li>
 
             <li class="ml-6">
-              <a href="https://twitter.com/vjtiracing" target="_blank" title="">
+              <a href="https://twitter.com/vjtiracing" target="_blank" rel="noreferrer noopener" title="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current opacity-75 hover:opacity-100">
                   <path
                     d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809	c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793	c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05	c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032	c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028	c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22	c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z" />
@@ -174,7 +175,7 @@ const Gallery = (props) => {
             </li>
 
             <li class="ml-6">
-              <a href="https://www.instagram.com/vjtiracing" target="_blank" title="">
+              <a href="https://www.instagram.com/vjtiracing" target="_blank" rel="noreferrer noopener" title="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current opacity-75 hover:opacity-100">
                   <path
                     d="M20.947,8.305c-0.011-0.757-0.151-1.508-0.419-2.216c-0.469-1.209-1.424-2.165-2.633-2.633 c-0.699-0.263-1.438-0.404-2.186-0.42C14.747,2.993,14.442,2.981,12,2.981s-2.755,0-3.71,0.055 c-0.747,0.016-1.486,0.157-2.185,0.42C4.896,3.924,3.94,4.88,3.472,6.089C3.209,6.788,3.067,7.527,3.053,8.274 c-0.043,0.963-0.056,1.268-0.056,3.71s0,2.754,0.056,3.71c0.015,0.748,0.156,1.486,0.419,2.187 c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45c0.963,0.043,1.268,0.056,3.71,0.056s2.755,0,3.71-0.056 c0.747-0.015,1.486-0.156,2.186-0.419c1.209-0.469,2.164-1.425,2.633-2.633c0.263-0.7,0.404-1.438,0.419-2.187 c0.043-0.962,0.056-1.267,0.056-3.71C21.003,9.572,21.003,9.262,20.947,8.305z M11.994,16.602c-2.554,0-4.623-2.069-4.623-4.623 s2.069-4.623,4.623-4.623c2.552,0,4.623,2.069,4.623,4.623S14.546,16.602,11.994,16.602z M16.801,8.263 c-0.597,0-1.078-0.482-1.078-1.078s0.481-1.078,1.078-1.078c0.595,0,1.077,0.482,1.077,1.078S17.396,8.263,16.801,8.263z" />
@@ -183,7 +184,7 @@ const Gallery = (props) => {
             </li>
 
             <li class="ml-6">
-              <a href="https://www.youtube.com/channel/UCdqmWHqW6GZqXEOaTpTbJ7A" target="_blank" title="">
+              <a href="https://www.youtube.com/channel/UCdqmWHqW6GZqXEOaTpTbJ7A" target="_blank" rel="noreferrer noopener" title="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current opacity-75 hover:opacity-100">
                   <path
                     d="M21.593,7.203c-0.23-0.858-0.905-1.535-1.762-1.766C18.265,5.007,12,5,12,5S5.736,4.993,4.169,5.404	c-0.84,0.229-1.534,0.921-1.766,1.778c-0.413,1.566-0.417,4.814-0.417,4.814s-0.004,3.264,0.406,4.814	c0.23,0.857,0.905,1.534,1.763,1.765c1.582,0.43,7.83,0.437,7.83,0.437s6.265,0.007,7.831-0.403c0.856-0.23,1.534-0.906,1.767-1.763	C21.997,15.281,22,12.034,22,12.034S22.02,8.769,21.593,7.203z M9.996,15.005l0.005-6l5.207,3.005L9.996,15.005z" />
@@ -192,7 +193,7 @@ const Gallery = (props) => {
             </li>
 
             <li class="ml-6">
-              <a href="https://in.linkedin.com/company/vjti-racing" target="_blank" title="">
+              <a href="https://in.linkedin.com/company/vjti-racing" target="_blank" rel="noreferrer noopener" title="">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current opacity-75 hover:opacity-100"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
               </a>
             </li>
@@ -200,7 +201,7 @@ const Gallery = (props) => {
           </ul>
 
           <a class="mt-8 inline-block font-semibold text-white md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
-                  href={brochure} target="_blank">View and Download our Sponsorship Brochure!</a>
+                  href={brochure} target="_blank" rel="noreferrer noopener">View and Download our Sponsorship Brochure!</a>
 
           <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2022<br class="hidden lg:block"/> All Rights Reserved.
           </p>
@@ -208,6 +209,7 @@ const Gallery = (props) => {
 
       </div>
     </footer>
+
 
   </main>
 
