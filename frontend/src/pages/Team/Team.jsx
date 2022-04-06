@@ -125,7 +125,7 @@ const Team = (props) => {
     <section class="relative bg-gray-100  pt-8 lg:pt-16">
       <div class="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
         <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Team This Year - 2022</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">The Team of 2022</h2>
         </div>
         
       </div>
