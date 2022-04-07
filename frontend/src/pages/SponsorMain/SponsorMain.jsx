@@ -8,6 +8,11 @@ import JSRC from "./images/CurrentSponsors/JSRC.png";
 import IndoTherm from "./images/CurrentSponsors/IndoTherm.jfif";
 import OpTech from "./images/CurrentSponsors/OpTech.png";
 import VJTIAlumni from "./images/CurrentSponsors/VJTIAlumni.jpg";
+import RampraNew from "./images/CurrentSponsors/Rampra.jpg";
+import Circlips from "./images/CurrentSponsors/Circlips.jpg";
+import DMC from "./images/CurrentSponsors/DMC.jpg";
+import Idea3 from "./images/CurrentSponsors/Idea3.png";
+import Spartan from "./images/CurrentSponsors/Spartan.png";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -177,7 +182,27 @@ const SponsorMain = (props) => {
             <img src={OpTech}
                 alt="image"/>
         </div>
+        <div class="w-full rounded">
+            <img src={RampraNew}
+                alt="image"/>
+        </div>
+        <div class="w-full rounded">
+            <img src={Circlips}
+                alt="image"/>
+        </div>
+        <div class="w-full rounded">
+            <img src={DMC}
+                alt="image"/>
+        </div>
         
+        <div class="w-full rounded">
+            <img src={Idea3}
+                alt="image"/>
+        </div>
+        <div class="w-full rounded">
+            <img src={Spartan}
+                alt="image"/>
+        </div>
         
     </div>
 </div>
