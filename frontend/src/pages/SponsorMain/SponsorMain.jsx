@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 import brochure from "./files/Brochure2022.pdf";
 import "./SponsorMain.css";
@@ -76,7 +76,7 @@ const SponsorMain = (props) => {
     console.log("testing");
     const thepath = document.getElementById("forfancymenu");
     const checkbox = document.getElementById("menu-toggle");
-    if (checkbox.checked == true)
+    if (checkbox.checked === true)
     {
       thepath.setAttribute("d", "M0 3 h4 l6 6 l6 -6 h4 l-8 8 l8 8 h-4 l-6 -6 l-6 6 h-4 l8 -8 z;");
     }
@@ -99,7 +99,7 @@ const SponsorMain = (props) => {
 <div class="flex flex-wrap items-center justify-between py-6 border-b">
   <div class="w-1/2 md:w-auto transition duration-500 hover:scale-110">
   <Link to="/" class="">
-      <img src={logo} width="175"/>
+      <img src={logo} width="175" alt="VJTI Racing Logo"/>
     </Link>
   </div>
 
@@ -163,46 +163,55 @@ const SponsorMain = (props) => {
     <div class="grid-cols-3 p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
         <div class="w-full col-span-2 row-span-1 rounded">
             <img src={JSRC}
-                alt="image"/>
+                alt="JSR"/>
         </div>
+        <a href="https://vjtialumni.com/" target="_blank" rel="noreferrer noopener">
         <div class="w-full rounded">
             <img src={VJTIAlumni}
-                alt="image"/>
+                alt="VJTI Alumni Association"/>
         </div>
+        </a>
+        <a href="http://www.darksmachinox.com/" target="_blank" rel="noreferrer noopener">
         <div class="w-full rounded">
             <img src={DarksMachinoX}
-                alt="image"/>
+                alt="DarksMachinoX"/>
         </div>
-        
+        </a>
+        <a href="https://www.indothermengrs.com/" target="_blank" rel="noreferrer noopener">
         <div class="w-full rounded">
             <img src={IndoTherm}
-                alt="image"/>
+                alt="IndoTherm Engineers Pvt. Ltd."/>
         </div>
+        </a>
         <div class="w-full rounded">
             <img src={OpTech}
-                alt="image"/>
+                alt="OpTech"/>
         </div>
+        <a href="https://www.ramprasteel.com/" target="_blank" rel="noreferrer noopener">
         <div class="w-full rounded">
             <img src={RampraNew}
-                alt="image"/>
+                alt="Rampra"/>
         </div>
+        </a>
         <div class="w-full rounded">
             <img src={Circlips}
-                alt="image"/>
+                alt="Circlips Technologie"/>
         </div>
         <div class="w-full rounded">
             <img src={DMC}
-                alt="image"/>
+                alt="DMC - Das Mobile Company"/>
         </div>
         
         <div class="w-full rounded">
             <img src={Idea3}
-                alt="image"/>
+                alt="3 Idea"/>
         </div>
+        <a href="https://spartanindia.com/" target="_blank" rel="noreferrer noopener">
         <div class="w-full rounded">
             <img src={Spartan}
-                alt="image"/>
+                alt="Spartan"/>
         </div>
+        </a>
         
     </div>
 </div>
@@ -218,223 +227,223 @@ const SponsorMain = (props) => {
     <div class="grid-cols-3 p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
         <div class="w-full rounded">
             <img src={PrintWorld}
-                alt="image"/>
+                alt="3D PrintWorld Pvt. Ltd."/>
         </div>
         <div class="w-full rounded">
             <img src={ALF}
-                alt="image"/>
+                alt="ALF Engineering Pvt. Ltd."/>
         </div>
         <div class="w-full rounded">
             <img src={Alicat}
-                alt="image"/>
+                alt="Alicat Scientific"/>
         </div>
         <div class="w-full rounded">
             <img src={ANS}
-                alt="image"/>
+                alt="ANS Tracknology"/>
         </div>
         <div class="w-full rounded">
             <img src={Arbes}
-                alt="image"/>
+                alt="Arbes"/>
         </div>
         <div class="w-full rounded">
             <img src={PSP_Laser}
-                alt="image"/>
+                alt="PSP Lasertech Pvt. Ltd."/>
         </div>
         <div class="w-full rounded">
             <img src={Burnout}
-                alt="image"/>
+                alt="Burnout by 3 Brothers"/>
         </div>
         <div class="w-full rounded">
             <img src={CrestaPaints}
-                alt="image"/>
+                alt="Cresta Paints"/>
         </div>
         <div class="w-full rounded">
             <img src={CrownRelocations}
-                alt="image"/>
+                alt="Crown Relocations"/>
         </div>
         <div class="w-full rounded">
             <img src={DivineEnterprises}
-                alt="image"/>
+                alt="Divine Enterprises"/>
         </div>
         <div class="w-full rounded">
             <img src={dna}
-                alt="image"/>
+                alt="dna"/>
         </div>
         <div class="w-full rounded">
             <img src={EchaarEquipment}
-                alt="image"/>
+                alt="Echaar Equipment Pvt. Ltd."/>
         </div>
         <div class="w-full rounded">
             <img src={FederalBank}
-                alt="image"/>
+                alt="Federal Bank"/>
         </div>
         <div class="w-full rounded">
             <img src={FundTonic}
-                alt="image"/>
+                alt="FundTonic.com"/>
         </div>
         <div class="w-full rounded">
             <img src={EnggBazaar}
-                alt="image"/>
+                alt="Engineering Bazaar"/>
         </div>
         <div class="w-full rounded">
             <img src={Greenway}
-                alt="image"/>
+                alt="Greenway"/>
         </div>
         <div class="w-full rounded">
             <img src={GRMetalloys}
-                alt="image"/>
+                alt="GR Metalloys"/>
         </div>
         <div class="w-full rounded">
             <img src={HardwinFasteners}
-                alt="image"/>
+                alt="Hardwin Fasteners"/>
         </div>
         <div class="w-full rounded">
             <img src={Igus}
-                alt="image"/>
+                alt="Igus"/>
         </div>
         <div class="w-full rounded">
             <img src={IndianOil}
-                alt="image"/>
+                alt="Indian Oil"/>
         </div>
         <div class="w-full rounded">
             <img src={IndoThermPast}
-                alt="image"/>
+                alt="IndoTherm Engineers Pvt. Ltd."/>
         </div>
         <div class="w-full rounded">
             <img src={Jindal}
-                alt="image"/>
+                alt="Jindal"/>
         </div>
         <div class="w-full rounded">
             <img src={LandT}
-                alt="image"/>
+                alt="L and T"/>
         </div>
         <div class="w-full rounded">
             <img src={MalkarIndustries}
-                alt="image"/>
+                alt="Malkar Industries"/>
         </div>
         <div class="w-full rounded">
             <img src={Marvel}
-                alt="image"/>
+                alt="Marvel"/>
         </div>
         <div class="w-full rounded">
             <img src={MistriTurnTech}
-                alt="image"/>
+                alt="Mistri Turn Tech"/>
         </div>
         <div class="w-full rounded">
             <img src={NeetaBellows}
-                alt="image"/>
+                alt="NeetaBellows"/>
         </div>
         <div class="w-full rounded">
             <img src={parleElizabeth}
-                alt="image"/>
+                alt="parleElizabeth"/>
         </div>
         <div class="w-full rounded">
             <img src={Polycab}
-                alt="image"/>
+                alt="Polycab"/>
         </div>
         <div class="w-full rounded">
             <img src={PratibhaIndustries}
-                alt="image"/>
+                alt="Pratibha Industries Limited"/>
         </div>
         <div class="w-full rounded">
             <img src={PreciseFasteners}
-                alt="image"/>
+                alt="Precise Fasteners Pvt. Ltd."/>
         </div>
         <div class="w-full rounded">
             <img src={ProspectGears}
-                alt="image"/>
+                alt="Prospect Gears"/>
         </div>
         <div class="w-full rounded">
             <img src={VJTIAlumniPast}
-                alt="image"/>
+                alt="VJTI Alumni Association"/>
         </div>
         <div class="w-full rounded">
             <img src={Shreenath}
-                alt="image"/>
+                alt="Shreenath Engineering Works"/>
         </div>
         <div class="w-full rounded">
             <img src={Rampra}
-                alt="image"/>
+                alt="Rampra"/>
         </div>
         <div class="w-full rounded">
             <img src={RevtiIndustries}
-                alt="image"/>
+                alt="Revti Industries"/>
         </div>
         <div class="w-full rounded">
             <img src={SJI}
-                alt="image"/>
+                alt="Shri Jagannath Industries"/>
         </div>
         <div class="w-full rounded">
             <img src={Raymond}
-                alt="image"/>
+                alt="Raymond"/>
         </div>
         <div class="w-full rounded">
             <img src={ScaleMinds}
-                alt="image"/>
+                alt="Scale Minds"/>
         </div>
         <div class="w-full rounded">
             <img src={Super}
-                alt="image"/>
+                alt="Super Design and Manufacture"/>
         </div>
         <div class="w-full rounded">
             <img src={VictoriaDigital}
-                alt="image"/>
+                alt="Victoria Digital"/>
         </div>
         <div class="w-full rounded">
             <img src={SN_Engg}
-                alt="image"/>
+                alt="S. N. Engineering"/>
         </div>
         <div class="w-full rounded">
             <img src={TU}
-                alt="image"/>
+                alt="Tools Unlimited"/>
         </div>
         <div class="w-full rounded">
             <img src={TopGear}
-                alt="image"/>
+                alt="Top Gear Transmissions"/>
         </div>
         <div class="w-full rounded">
             <img src={InnovativeTech}
-                alt="image"/>
+                alt="Innovative Technologies"/>
         </div>
         <div class="w-full rounded">
             <img src={Parshva}
-                alt="image"/>
+                alt="Parshva India"/>
         </div>
         <div class="w-full rounded">
             <img src={PrecisionCut}
-                alt="image"/>
+                alt="Precision Cut Industries"/>
         </div>
         <div class="w-full rounded">
             <img src={HFSI}
-                alt="image"/>
+                alt="Hindustan Forging and Steel Industries"/>
         </div>
         <div class="w-full rounded">
             <img src={RCI}
-                alt="image"/>
+                alt="RCI"/>
         </div>
         <div class="w-full rounded">
             <img src={SDI}
-                alt="image"/>
+                alt="S. D. Industries"/>
         </div>
         <div class="w-full rounded">
             <img src={CityPackers}
-                alt="image"/>
+                alt="City Packers and Movers"/>
         </div>
         <div class="w-full rounded">
             <img src={Metallurgical}
-                alt="image"/>
+                alt="Metallurgical Processes and Equipments"/>
         </div>
         <div class="w-full rounded">
             <img src={Magnes}
-                alt="image"/>
+                alt="Magnes"/>
         </div>
         <div class="w-full rounded">
             <img src={PrintoMake}
-                alt="image"/>
+                alt="PrintOMake"/>
         </div>
         <div class="w-full rounded">
             <img src={Radheya}
-                alt="image"/>
+                alt="RML - Radheya"/>
         </div>
     </div>
 </div>
@@ -456,8 +465,8 @@ const SponsorMain = (props) => {
         <div class="w-full lg:w-5/12 lg:mx-2 lg:pr-8">
           <h3 class="font-bold text-2xl -pt-10 -mt-5">VJTI Racing</h3>
           <p class="text-gray-400 pb-5">The club for VJTI's automobile enthusiasts.</p>
-          <iframe class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
-          <iframe class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="VJTI Racing Location Map" class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="VJTI Racing Location Mobile Map" class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
         </div>
         
         <div class="w-full fixfoot:w-1/6 mt-8 fixfoot:mt-0 lg:mx-4">
