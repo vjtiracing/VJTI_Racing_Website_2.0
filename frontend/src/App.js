@@ -15,7 +15,7 @@ import PageNotFound from './pages/PageNotFound/PageNotFound'
 
 function App() {
   return (
-    <BrowserRouter basename="/VJTI_Racing_Website_2.0">
+    <BrowserRouter basename="">
 			<div>
 				<Routes>
         <Route path="/" element={<Home />}>
