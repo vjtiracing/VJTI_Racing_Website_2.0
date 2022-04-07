@@ -105,79 +105,79 @@ const Gallery = (props) => {
     <div class="flex flex-wrap -m-1 md:-m-2">
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Team Motorbreath With Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img1}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Our Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img2}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Our Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img3}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Our Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img4}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Our Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img5}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Our Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img6}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Our Vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img7}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Autolab" class="block object-cover object-center w-full h-full rounded-lg"
             src={img8}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Nivotronics" class="block object-cover object-center w-full h-full rounded-lg"
             src={img9}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Battery" class="block object-cover object-center w-full h-full rounded-lg"
             src={img10}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img11}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={img13}/>
         </div>
       </div>
       <div class="flex flex-wrap w-full">
         <div class="w-full p-1 md:p-2">
-          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          <img alt="Team" class="block object-cover object-center w-full h-full rounded-lg"
             src={img12}/>
         </div>
       </div>
@@ -192,8 +192,8 @@ const Gallery = (props) => {
         <div class="w-full lg:w-5/12 lg:mx-2 lg:pr-8">
           <h3 class="font-bold text-2xl -pt-10 -mt-5">VJTI Racing</h3>
           <p class="text-gray-400 pb-5">The club for VJTI's automobile enthusiasts.</p>
-          <iframe class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
-          <iframe class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="VJTI Racing Location Map" class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="VJTI Racing Location Mobile Map" class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
         </div>
         
         <div class="w-full fixfoot:w-1/6 mt-8 fixfoot:mt-0 lg:mx-4">

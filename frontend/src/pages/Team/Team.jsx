@@ -133,7 +133,7 @@ const Team = (props) => {
       <div class="grid sm:grid-cols-2 gap-10">
         <a href="https://www.linkedin.com/in/aayush-patel-1a385b19b/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={AayushPatel} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={AayushPatel} alt="Aayush Patel"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Aayush Patel</div>
             <p class=" text-base">
@@ -144,7 +144,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/mrutyunjay-chinchole-679754196/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={MrutyunjayChinchole} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={MrutyunjayChinchole} alt="Mrutyunjay Chinchole"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Mrutyunjay Chinchole</div>
             <p class=" text-base">
@@ -158,7 +158,7 @@ const Team = (props) => {
       <div class="container mx-auto flex flex-wrap my-8 justify-center">
       <div class="pt-10 grid md:grid-cols-3 sm:grid-cols-2 gap-10">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={PranavPandit} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={PranavPandit} alt="Pranav Pandit"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Pranav Pandit</div>
             <p class=" text-base">
@@ -170,7 +170,7 @@ const Team = (props) => {
         </div>
         <a href="https://www.linkedin.com/in/prahlad-amudan-060598155/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={PrahladAmudan} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={PrahladAmudan} alt="Prahlad Amudan"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Prahlad Amudan</div>
             <p class=" text-base">
@@ -182,7 +182,7 @@ const Team = (props) => {
         </div>
         </a>
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={NinadChaulamwar} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={NinadChaulamwar} alt="Ninad Chaulamwar"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Ninad Chaulamwar</div>
             <p class=" text-base">
@@ -194,7 +194,7 @@ const Team = (props) => {
         </div>
         <a href="https://www.linkedin.com/in/niranjan-pagar-55930016b" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={NiranjanPagar} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={NiranjanPagar} alt="Niranjan Pagar"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Niranjan Pagar</div>
             <p class=" text-base">
@@ -207,7 +207,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/ayushmjoshi/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={AyushJoshi} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={AyushJoshi} alt="Ayush Joshi"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Ayush Joshi</div>
             <p class=" text-base">
@@ -220,7 +220,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/varunpopere/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={VarunPopere} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={VarunPopere} alt="Varun Popere"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Varun Popere</div>
             <p class=" text-base">
@@ -233,7 +233,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/ratik-mandal-ab2359152/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={RatikMandal} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={RatikMandal} alt="Ratik Mandal"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Ratik Mandal</div>
             <p class=" text-base">
@@ -245,7 +245,7 @@ const Team = (props) => {
         </div>
         </a>
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={SrushteePadwal} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={SrushteePadwal} alt="Srushtee Padwal"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Srushtee Padwal</div>
             <p class=" text-base">
@@ -257,7 +257,7 @@ const Team = (props) => {
         </div>
         <a href="https://www.linkedin.com/in/reshmika-nambiar/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={ReshmikaNambiar} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={ReshmikaNambiar} alt="Reshmika Nambiar"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Reshmika Nambiar</div>
             <p class=" text-base">
@@ -270,7 +270,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/yash-gulhane-b6867a204/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={YashGulhane} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={YashGulhane} alt="Yash Gulhane"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Yash Gulhane</div>
             <p class=" text-base">
@@ -281,7 +281,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/priyanshi-patel-3a1472228/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={PriyanshiPatel} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={PriyanshiPatel} alt="Priyanshi Patel"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Priyanshi Patel</div>
             <p class=" text-base">
@@ -292,7 +292,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/ishan-lokhande-a999b121b" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={IshanLokhande} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={IshanLokhande} alt="Ishan Lokhande"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Ishan Lokhande</div>
             <p class=" text-base">
@@ -303,7 +303,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/bhagyesh-sonawane-b5927b1b3/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={BhagyeshSonawane} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={BhagyeshSonawane} alt="Bhagyesh Sonawane"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Bhagyesh Sonawane</div>
             <p class=" text-base">
@@ -313,7 +313,7 @@ const Team = (props) => {
         </div>
         </a>
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={TejasNaik} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={TejasNaik} alt="Tejas Naik"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Tejas Naik</div>
             <p class=" text-base">
@@ -323,7 +323,7 @@ const Team = (props) => {
         </div>
         <a href="https://www.linkedin.com/in/aditya-shastri-2001" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={AdityaShastri} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={AdityaShastri} alt="Aditya Shastri"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Aditya Shastri</div>
             <p class=" text-base">
@@ -334,7 +334,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/chetan-patil-2708b71a3" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={ChetanPatil} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={ChetanPatil} alt="Chetan Patil"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Chetan Patil</div>
             <p class=" text-base">
@@ -345,7 +345,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/tejaspagare1" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={TejasPagare} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={TejasPagare} alt="Tejas Pagare"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Tejas Pagare</div>
             <p class=" text-base">
@@ -356,7 +356,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/kushal-sarda-134a22216" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={KushalSarda} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={KushalSarda} alt="Kushal Sarda"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Kushal Sarda</div>
             <p class=" text-base">
@@ -370,7 +370,7 @@ const Team = (props) => {
       <div class="container mx-auto flex flex-wrap my-8 justify-center pt-10 ">
       <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-10">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={VikramAde} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={VikramAde} alt="Vikram Ade"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Vikram Ade</div>
             <p class=" text-base">
@@ -380,7 +380,7 @@ const Team = (props) => {
         </div>
         <a href="https://www.linkedin.com/in/rajat-patil-172522206" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={RajatPatil} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={RajatPatil} alt="Rajat Patil"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Rajat Patil</div>
             <p class=" text-base">
@@ -391,7 +391,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/sharal-deegoju" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={SharalDeegoju} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={SharalDeegoju} alt="Sharal Deegoju"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Sharal Deegoju</div>
             <p class=" text-base">
@@ -402,7 +402,7 @@ const Team = (props) => {
         </a>
         <a href="https://www.linkedin.com/in/pratiksha-neelwani-5a396a1b2" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={PratikshaNeelwani} alt="Sunset in the mountains"/>
+          <img class="w-full h-96 object-cover" src={PratikshaNeelwani} alt="Pratiksha Neelwani"/>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Pratiksha Neelwani</div>
             <p class=" text-base">
@@ -432,8 +432,8 @@ const Team = (props) => {
         <div class="w-full lg:w-5/12 lg:mx-2 lg:pr-8">
           <h3 class="font-bold text-2xl -pt-10 -mt-5">VJTI Racing</h3>
           <p class="text-gray-400 pb-5">The club for VJTI's automobile enthusiasts.</p>
-          <iframe class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
-          <iframe class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="VJTI Racing Location Map" class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="VJTI Racing Location Mobile Map" class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
         </div>
         
         <div class="w-full fixfoot:w-1/6 mt-8 fixfoot:mt-0 lg:mx-4">
