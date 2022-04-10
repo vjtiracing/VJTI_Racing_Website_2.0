@@ -163,55 +163,74 @@ const SponsorMain = (props) => {
     <div class="grid-cols-3 p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
         <div class="w-full col-span-2 row-span-1 rounded">
             <img src={JSRC}
-                alt="JSR"/>
-        </div>
-        <a href="https://vjtialumni.com/" target="_blank" rel="noreferrer noopener">
-        <div class="w-full rounded">
-            <img src={VJTIAlumni}
-                alt="VJTI Alumni Association"/>
-        </div>
-        </a>
-        <a href="http://www.darksmachinox.com/" target="_blank" rel="noreferrer noopener">
-        <div class="w-full rounded">
-            <img src={DarksMachinoX}
-                alt="DarksMachinoX"/>
-        </div>
-        </a>
-        <a href="https://www.indothermengrs.com/" target="_blank" rel="noreferrer noopener">
-        <div class="w-full rounded">
-            <img src={IndoTherm}
-                alt="IndoTherm Engineers Pvt. Ltd."/>
-        </div>
-        </a>
-        <div class="w-full rounded">
-            <img src={OpTech}
-                alt="OpTech"/>
-        </div>
-        <a href="https://www.ramprasteel.com/" target="_blank" rel="noreferrer noopener">
-        <div class="w-full rounded">
-            <img src={RampraNew}
-                alt="Rampra"/>
-        </div>
-        </a>
-        <div class="w-full rounded">
-            <img src={Circlips}
-                alt="Circlips Technologie"/>
-        </div>
-        <div class="w-full rounded">
-            <img src={DMC}
-                alt="DMC - Das Mobile Company"/>
+                alt="JSR" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </div>
         
         <div class="w-full rounded">
-            <img src={Idea3}
-                alt="3 Idea"/>
-        </div>
-        <a href="https://spartanindia.com/" target="_blank" rel="noreferrer noopener">
-        <div class="w-full rounded">
-            <img src={Spartan}
-                alt="Spartan"/>
-        </div>
+        <a href="https://vjtialumni.com/" target="_blank" rel="noreferrer noopener">
+            <img src={VJTIAlumni}
+                alt="VJTI Alumni Association"  class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
+        </div>
+        
+        
+        <div class="w-full rounded">
+        <a href="https://spartanindia.com/" target="_blank" rel="noreferrer noopener">
+            <img src={Spartan}
+                alt="Spartan" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        
+        
+        <div class="w-full rounded">
+        <a href="http://www.darksmachinox.com/" target="_blank" rel="noreferrer noopener">
+            <img src={DarksMachinoX}
+                alt="DarksMachinoX" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+         </a>
+        </div>
+       
+        
+        <div class="w-full rounded">
+        <a href="https://www.indothermengrs.com/" target="_blank" rel="noreferrer noopener">
+            <img src={IndoTherm}
+                alt="IndoTherm Engineers Pvt. Ltd." class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        
+        <div class="w-full rounded">
+        <a href="https://www.optechengineering.com/" target="_blank" rel="noreferrer noopener">
+            <img src={OpTech}
+                alt="OpTech" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        
+        <div class="w-full rounded">
+        <a href="https://www.ramprasteel.com/" target="_blank" rel="noreferrer noopener">
+            <img src={RampraNew}
+                alt="Rampra" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        
+        <div class="w-full rounded">
+        <a href="https://www.circlipsindia.com/" target="_blank" rel="noreferrer noopener">
+            <img src={Circlips}
+                alt="Circlips Technologie" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        <div class="w-full rounded">
+        <a href="https://www.linkedin.com/company/das-mobility-company//" target="_blank" rel="noreferrer noopener">
+            <img src={DMC}
+                alt="DMC - Das Mobile Company" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        
+        <div class="w-full rounded">
+        <a href="https://www.3idea.in/" target="_blank" rel="noreferrer noopener">
+            <img src={Idea3}
+                alt="3 Idea" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+        
         
     </div>
 </div>
