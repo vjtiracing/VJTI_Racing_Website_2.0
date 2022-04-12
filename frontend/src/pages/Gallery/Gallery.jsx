@@ -18,6 +18,11 @@ import img11 from "./images/GalleryPics/img11.jpg";
 import img12 from "./images/GalleryPics/img12.jpg";
 import img13 from "./images/GalleryPics/img13.jpg";
 
+import imgnew1 from "./images/GalleryPics/100_6524.JPG";
+import imgnew2 from "./images/GalleryPics/100_6528.JPG";
+import imgnew3 from "./images/GalleryPics/100E6283.JPG";
+import imgnew4 from "./images/GalleryPics/IMG_0085.JPG";
+
 const Gallery = (props) => {
 
   function menuToggler() {
@@ -179,6 +184,36 @@ const Gallery = (props) => {
         <div class="w-full p-1 md:p-2">
           <img alt="Team" class="block object-cover object-center w-full h-full rounded-lg"
             src={img12}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
+            src={img13}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
+            src={imgnew1}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
+            src={imgnew2}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
+            src={imgnew3}/>
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="w-full p-1 md:p-2">
+          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
+            src={imgnew4}/>
         </div>
       </div>
     </div>
