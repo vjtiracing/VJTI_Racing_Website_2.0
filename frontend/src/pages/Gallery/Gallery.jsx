@@ -189,12 +189,6 @@ const Gallery = (props) => {
       <div class="flex flex-wrap w-1/2">
         <div class="w-full p-1 md:p-2">
           <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
-            src={img13}/>
-        </div>
-      </div>
-      <div class="flex flex-wrap w-1/2">
-        <div class="w-full p-1 md:p-2">
-          <img alt="Working on our vehicle" class="block object-cover object-center w-full h-full rounded-lg"
             src={imgnew1}/>
         </div>
       </div>
