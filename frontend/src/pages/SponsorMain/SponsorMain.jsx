@@ -13,6 +13,7 @@ import Circlips from "./images/CurrentSponsors/Circlips.jpg";
 import DMC from "./images/CurrentSponsors/DMC.jpg";
 import Idea3 from "./images/CurrentSponsors/Idea3.png";
 import Spartan from "./images/CurrentSponsors/Spartan.png";
+import SEW from "./images/CurrentSponsors/SEW.jpeg";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -231,6 +232,12 @@ const SponsorMain = (props) => {
         </a>
         </div>
         
+        <div class="w-full rounded">
+        
+            <img src={SEW}
+                alt="SEW" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+
+        </div>
         
     </div>
 </div>
