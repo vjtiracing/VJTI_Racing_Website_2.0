@@ -17,7 +17,7 @@ import NiranjanPagar from "./images/Team2022/Niranjan_Pagar.jpeg";
 import PrahladAmudan from "./images/Team2022/Prahlad_ViceCaptain.jfif";
 import PranavPandit from "./images/Team2022/Pranav_Pandit.jpg";
 import PratikshaNeelwani from "./images/Team2022/Pratiksha_Neelwani.jpg";
-import PriyanshiPatel from "./images/Team2022/Priyanshi_Patel.jpg";
+import PriyanshiPatel from "./images/Team2022/Priyanshi_Patel.jpeg";
 import RajatPatil from "./images/Team2022/Rajat_Patil.jpg";
 import RatikMandal from "./images/Team2022/Ratik_Mandal.jpg";
 import ReshmikaNambiar from "./images/Team2022/Reshmika_Nambiar.jpeg";
