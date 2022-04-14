@@ -233,10 +233,10 @@ const SponsorMain = (props) => {
         </div>
         
         <div class="w-full rounded">
-        
+        <a href="http://www.sainathengworks.com/" target="_blank" rel="noreferrer noopener">
             <img src={SEW}
                 alt="SEW" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
-
+        </a>
         </div>
         
     </div>
