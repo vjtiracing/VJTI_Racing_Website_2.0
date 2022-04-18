@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b81b716b.css",
-    "main.js": "/static/js/main.6296bcf0.js",
+    "main.css": "/static/css/main.16d72cd0.css",
+    "main.js": "/static/js/main.c0a275dc.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/Brochure2022.pdf": "/static/media/Brochure2022.333398f82ff1a464e333.pdf",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
-    "static/media/TeamTShirt2023.png": "/static/media/TeamTShirt2023.89a52973b7aa125464f0.png",
     "static/media/Track5.png": "/static/media/Track5.92a87d4788c1c6a54d5f.png",
     "static/media/testimg1.png": "/static/media/testimg1.92a87d4788c1c6a54d5f.png",
     "static/media/Ninad_Chaulamwar.jpeg": "/static/media/Ninad_Chaulamwar.3937b5b496031b70a1c6.jpeg",
@@ -92,7 +91,6 @@
     "static/media/Ishan_Lokhande.jpg": "/static/media/Ishan_Lokhande.66036ced793402b9ba71.jpg",
     "static/media/Niranjan_Pagar.jpeg": "/static/media/Niranjan_Pagar.b8252759b27cc9703433.jpeg",
     "static/media/Bhagyesh_Sonawane.jpg": "/static/media/Bhagyesh_Sonawane.6c54d6199234e40d6ff9.jpg",
-    "static/media/size_chart.jpeg": "/static/media/size_chart.83d4ef1f03153c63c83d.jpeg",
     "static/media/CityPackers.png": "/static/media/CityPackers.3ccfdaa5db8812873a23.png",
     "static/media/dna.png": "/static/media/dna.a9ace21a4b66b85f67fa.png",
     "static/media/Alicat.png": "/static/media/Alicat.4cf8675a40f6050e4efc.png",
@@ -111,12 +109,12 @@
     "static/media/ProspectGears.jfif": "/static/media/ProspectGears.5a6322f62524141c6e7b.jfif",
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
-    "main.b81b716b.css.map": "/static/css/main.b81b716b.css.map",
-    "main.6296bcf0.js.map": "/static/js/main.6296bcf0.js.map",
+    "main.16d72cd0.css.map": "/static/css/main.16d72cd0.css.map",
+    "main.c0a275dc.js.map": "/static/js/main.c0a275dc.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b81b716b.css",
-    "static/js/main.6296bcf0.js"
+    "static/css/main.16d72cd0.css",
+    "static/js/main.c0a275dc.js"
   ]
 }
