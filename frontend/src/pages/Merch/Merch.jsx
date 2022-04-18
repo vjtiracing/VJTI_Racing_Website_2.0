@@ -4,6 +4,8 @@ import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import { Link } from 'react-router-dom';
 import brochure from "./files/Brochure2022.pdf";
 
+import tshirt from "./images/MerchPics/TeamTShirt2023.png";
+import sizes from "./images/MerchPics/size_chart.jpeg";
 
 
 const Merch = (props) => {
@@ -86,13 +88,21 @@ const Merch = (props) => {
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-8 lg:py-16">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Merch</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">T-Shirt</h2>
         </div>
         
       </div>
       <br></br>
       <p>
-          Nothing at the moment. But be on the lookout as we will update this page soon!
+          Please fill the form to purchase our official t-shirts!
+        </p>
+        <br/>
+        <img src={tshirt} alt="VJTI Racing T-Shirt"/>
+        <br/>
+        <img src={sizes} alt="Size Chart" class="ml-auto mr-auto"/>
+        <br/>
+        <p class="text-xl">
+          Get your t-shirt for only <b>₹375/-</b> by filling the form <a href="https://forms.gle/T3ESTVfFPWW1PzfU9" target="_blank" rel="noreferrer noopener" class="underline text-xl text-cyan-500 hover:text-cyan-700 hover:text-2xl">here</a>.
         </p>
     </section>
 
