@@ -4,7 +4,7 @@ import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import { Link } from 'react-router-dom';
 import brochure from "./files/Brochure2022.pdf";
 
-import tshirt from "./images/MerchPics/TeamTShirt2023.png";
+import tshirt from "./images/MerchPics/TeamTShirt2023.jpg";
 import sizes from "./images/MerchPics/size_chart.jpeg";
 
 
