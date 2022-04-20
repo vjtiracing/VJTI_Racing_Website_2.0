@@ -76,10 +76,10 @@ const Merch = (props) => {
     <section class="relative bg-gray-900 text-center text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full lg:w lg:px-8">
-          <h2 class="text-4xl leading-tight font-bold mt-4 pt-10">Merch</h2>
+          <h2 class="text-4xl leading-tight font-bold mt-4 pt-10">Merchandise</h2>
           <br/>
           <p class="mt-2 leading-relaxed text-white pb-0 mb-0 text-xl">
-              You can now buy our merch! (Note: You have to be a VJTI student to buy them.)
+              You can now buy our merchandise! (Note: You have to be a VJTI student to buy them.)
           </p>
         </div>
       </div>
