@@ -14,6 +14,7 @@ import DMC from "./images/CurrentSponsors/DMC.jpg";
 import Idea3 from "./images/CurrentSponsors/Idea3.png";
 import Spartan from "./images/CurrentSponsors/Spartan.png";
 import SEW from "./images/CurrentSponsors/SEW.jpeg";
+import KumarProcesses from "./images/CurrentSponsors/KumarProcesses.jpg";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -236,6 +237,13 @@ const SponsorMain = (props) => {
         <a href="http://www.sainathengworks.com/" target="_blank" rel="noreferrer noopener">
             <img src={SEW}
                 alt="SEW" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+
+        <div class="w-full rounded">
+        <a href="https://www.kumarfilter.com/" target="_blank" rel="noreferrer noopener">
+            <img src={KumarProcesses}
+                alt="Kumar Processes" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
         </div>
         
