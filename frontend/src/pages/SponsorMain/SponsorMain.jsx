@@ -164,8 +164,10 @@ const SponsorMain = (props) => {
           <div class="container mx-auto">
     <div class="grid-cols-3 p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
         <div class="w-full col-span-2 row-span-1 rounded">
+        <a href="mailto:info@jsrchemicals.com" target="_blank" rel="noreferrer noopener">
             <img src={JSRC}
                 alt="JSR" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
         </div>
         
         <div class="w-full rounded">
