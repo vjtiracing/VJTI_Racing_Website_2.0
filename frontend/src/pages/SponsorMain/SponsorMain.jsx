@@ -15,6 +15,8 @@ import Idea3 from "./images/CurrentSponsors/Idea3.png";
 import Spartan from "./images/CurrentSponsors/Spartan.png";
 import SEW from "./images/CurrentSponsors/SEW.jpeg";
 import KumarProcesses from "./images/CurrentSponsors/KumarProcesses.jpg";
+import PSP_Current from "./images/CurrentSponsors/PSP.png";
+import Igus_Current from "./images/CurrentSponsors/igus.png";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -158,11 +160,11 @@ const SponsorMain = (props) => {
     </section>
 
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
+      <div class="flex flex-col lg:flex-row lg:-mx-8 ">
         <div class="w-full">
           <h2 class="text-3xl leading-tight font-bold mt-4">Our Sponsors This Year</h2>
           <div class="container mx-auto">
-    <div class="grid-cols-3 p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
+    <div class="grid-cols-3 place-items-center p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2 justify-items-center items-center">
         <div class="w-full col-span-2 row-span-1 rounded">
         <a href="mailto:info@jsrchemicals.com" target="_blank" rel="noreferrer noopener">
             <img src={JSRC}
@@ -178,7 +180,7 @@ const SponsorMain = (props) => {
         </div>
         
         
-        <div class="w-full rounded">
+        <div class="w-full rounded col-span-2 row-span-1">
         <a href="https://spartanindia.com/" target="_blank" rel="noreferrer noopener">
             <img src={Spartan}
                 alt="Spartan" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
@@ -242,10 +244,26 @@ const SponsorMain = (props) => {
         </a>
         </div>
 
+        
+
+        <div class="w-full rounded col-span-2 row-span-1">
+        <a href="https://psplasertech.in/" target="_blank" rel="noreferrer noopener">
+            <img src={PSP_Current}
+                alt="PSP Laser Tech Pvt. Ltd." class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+
         <div class="w-full rounded">
         <a href="https://www.kumarfilter.com/" target="_blank" rel="noreferrer noopener">
             <img src={KumarProcesses}
                 alt="Kumar Processes" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+
+        <div class="w-full rounded col-span-2 row-span-1">
+        <a href="https://www.igus.in/" target="_blank" rel="noreferrer noopener">
+            <img src={Igus_Current}
+                alt="igus - Plastics for longer life" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
         </div>
         
@@ -259,8 +277,8 @@ const SponsorMain = (props) => {
       <div class="flex flex-col lg:flex-row lg:-mx-8">
         <div class="w-full">
           <h2 class="text-3xl leading-tight font-bold mt-4">Our Past Sponsors</h2>
-          <div class="container mx-auto">
-    <div class="grid-cols-3 p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
+          <div class="container mx-auto ">
+    <div class="grid-cols-3 place-items-center p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3  justify-items-center items-center">
         <div class="w-full rounded">
             <img src={PrintWorld}
                 alt="3D PrintWorld Pvt. Ltd."/>
