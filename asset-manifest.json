@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b81b716b.css",
-    "main.js": "/static/js/main.720dfb42.js",
+    "main.css": "/static/css/main.727fddc3.css",
+    "main.js": "/static/js/main.070a571c.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/Brochure2022.pdf": "/static/media/Brochure2022.333398f82ff1a464e333.pdf",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
@@ -103,20 +103,22 @@
     "static/media/DMC.jpg": "/static/media/DMC.1d88072d806d4ac8c60b.jpg",
     "static/media/3DPrintWorld.jfif": "/static/media/3DPrintWorld.feae57508b45b11dc54f.jfif",
     "static/media/MagnesMotors.jpg": "/static/media/MagnesMotors.484c76f26d4008c90abb.jpg",
+    "static/media/PSP.png": "/static/media/PSP.3c14c8cdfd2ad5f9afc6.png",
     "static/media/Tejas_Naik.jpg": "/static/media/Tejas_Naik.59e4d057163bd52e5be1.jpg",
     "static/media/Polycab.png": "/static/media/Polycab.0edb041fa517c5260ce2.png",
+    "static/media/igus.png": "/static/media/igus.231a1ab50e0bad36b8d9.png",
     "static/media/Printomake.png": "/static/media/Printomake.b27654936aa7ec56b6cc.png",
     "static/media/GRMetalloys.jfif": "/static/media/GRMetalloys.c2d158004fb66b85cadb.jfif",
     "static/media/IndoTherm.jfif": "/static/media/IndoTherm.8618cf414b68cebfc1af.jfif",
     "static/media/ProspectGears.jfif": "/static/media/ProspectGears.5a6322f62524141c6e7b.jfif",
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
-    "main.b81b716b.css.map": "/static/css/main.b81b716b.css.map",
-    "main.720dfb42.js.map": "/static/js/main.720dfb42.js.map",
+    "main.727fddc3.css.map": "/static/css/main.727fddc3.css.map",
+    "main.070a571c.js.map": "/static/js/main.070a571c.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b81b716b.css",
-    "static/js/main.720dfb42.js"
+    "static/css/main.727fddc3.css",
+    "static/js/main.070a571c.js"
   ]
 }
