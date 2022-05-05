@@ -17,6 +17,8 @@ import SEW from "./images/CurrentSponsors/SEW.jpeg";
 import KumarProcesses from "./images/CurrentSponsors/KumarProcesses.jpg";
 import PSP_Current from "./images/CurrentSponsors/PSP.png";
 import Igus_Current from "./images/CurrentSponsors/igus.png";
+import ReenaEnterprise from "./images/CurrentSponsors/ReenaEnterprise.png";
+import HardwinFasteners_Current from "./images/CurrentSponsors/HardwinFasteners.png";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -264,6 +266,20 @@ const SponsorMain = (props) => {
         <a href="https://www.igus.in/" target="_blank" rel="noreferrer noopener">
             <img src={Igus_Current}
                 alt="igus - Plastics for longer life" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+
+        <div class="w-full rounded">
+        
+            <img src={ReenaEnterprise}
+                alt="Reena Enterprise" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        
+        </div>
+
+        <div class="w-full rounded">
+        <a href="https://www.hardwin.in/" target="_blank" rel="noreferrer noopener">
+            <img src={HardwinFasteners_Current}
+                alt="Hardwin Fasteners" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
         </div>
         
