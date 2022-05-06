@@ -19,6 +19,8 @@ import PSP_Current from "./images/CurrentSponsors/PSP.png";
 import Igus_Current from "./images/CurrentSponsors/igus.png";
 import ReenaEnterprise from "./images/CurrentSponsors/ReenaEnterprise.png";
 import HardwinFasteners_Current from "./images/CurrentSponsors/HardwinFasteners.png";
+import KriaTech from "./images/CurrentSponsors/KriaTech.jpg";
+import VSM from "./images/CurrentSponsors/VSM.jpg";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -270,16 +272,30 @@ const SponsorMain = (props) => {
         </div>
 
         <div class="w-full rounded">
-        
+        <a href="mailto:reenaenterprise100@gmail.com" target="_blank" rel="noreferrer noopener">
             <img src={ReenaEnterprise}
                 alt="Reena Enterprise" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
-        
+        </a>
         </div>
 
         <div class="w-full rounded">
         <a href="https://www.hardwin.in/" target="_blank" rel="noreferrer noopener">
             <img src={HardwinFasteners_Current}
                 alt="Hardwin Fasteners" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+
+        <div class="w-full rounded">
+        <a href="mailto:jiten@kriatech.com" target="_blank" rel="noreferrer noopener">
+            <img src={KriaTech}
+                alt="Kria Tech" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
+
+        <div class="w-full rounded">
+        <a href="https://vsmthane.org/" target="_blank" rel="noreferrer noopener">
+            <img src={VSM}
+                alt="VSM - Transformation Through Mentoring" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
         </div>
         
