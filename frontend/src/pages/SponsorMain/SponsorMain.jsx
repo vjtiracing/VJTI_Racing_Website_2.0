@@ -18,9 +18,10 @@ import KumarProcesses from "./images/CurrentSponsors/KumarProcesses.jpg";
 import PSP_Current from "./images/CurrentSponsors/PSP.png";
 import Igus_Current from "./images/CurrentSponsors/igus.png";
 import ReenaEnterprise from "./images/CurrentSponsors/ReenaEnterprise.png";
-import HardwinFasteners_Current from "./images/CurrentSponsors/HardwinFasteners.png";
+import HardwinFasteners_Current from "./images/CurrentSponsors/HardwinFastenersNew.jpg";
 import KriaTech from "./images/CurrentSponsors/KriaTech.jpg";
 import VSM from "./images/CurrentSponsors/VSM.jpg";
+import MistriTurnTech_Current from "./images/CurrentSponsors/MistryTurnTech.jpg";
 
 import PrintWorld from "./images/PastSponsors/3DPrintWorld.jfif";
 import ALF from "./images/PastSponsors/ALF.PNG";
@@ -168,7 +169,7 @@ const SponsorMain = (props) => {
         <div class="w-full">
           <h2 class="text-3xl leading-tight font-bold mt-4">Our Sponsors This Year</h2>
           <div class="container mx-auto">
-    <div class="grid-cols-3 place-items-center p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2 justify-items-center items-center">
+    <div class="grid-cols-3 place-items-center p-20 space-y-4 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2 justify-items-center items-center">
         <div class="w-full col-span-2 row-span-1 rounded">
         <a href="mailto:info@jsrchemicals.com" target="_blank" rel="noreferrer noopener">
             <img src={JSRC}
@@ -230,7 +231,7 @@ const SponsorMain = (props) => {
         <div class="w-full rounded">
         <a href="https://www.linkedin.com/company/das-mobility-company//" target="_blank" rel="noreferrer noopener">
             <img src={DMC}
-                alt="DMC - Das Mobile Company" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+                alt="DMC - Das Mobility Company" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
         </div>
         
@@ -278,7 +279,7 @@ const SponsorMain = (props) => {
         </a>
         </div>
 
-        <div class="w-full rounded">
+        <div class="w-full rounded col-span-2 row-span-1">
         <a href="https://www.hardwin.in/" target="_blank" rel="noreferrer noopener">
             <img src={HardwinFasteners_Current}
                 alt="Hardwin Fasteners" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
@@ -298,6 +299,13 @@ const SponsorMain = (props) => {
                 alt="VSM - Transformation Through Mentoring" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
         </div>
+
+        <div class="w-full rounded">
+        <a href="https://m.indiamart.com/mistryturn-tec/profile.html" target="_blank" rel="noreferrer noopener">
+            <img src={MistriTurnTech_Current}
+                alt="MistriTurn Tech" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
+        </a>
+        </div>
         
     </div>
 </div>
@@ -310,7 +318,7 @@ const SponsorMain = (props) => {
         <div class="w-full">
           <h2 class="text-3xl leading-tight font-bold mt-4">Our Past Sponsors</h2>
           <div class="container mx-auto ">
-    <div class="grid-cols-3 place-items-center p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3  justify-items-center items-center">
+    <div class="grid-cols-3 place-items-center p-20 space-y-4 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3  justify-items-center items-center">
         <div class="w-full rounded">
             <img src={PrintWorld}
                 alt="3D PrintWorld Pvt. Ltd."/>
