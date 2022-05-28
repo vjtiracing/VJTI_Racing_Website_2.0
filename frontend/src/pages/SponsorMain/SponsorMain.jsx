@@ -286,12 +286,14 @@ const SponsorMain = (props) => {
         </a>
         </div>
 
-        <div class="w-full rounded">
+        {/* Keep commented, not a sponsor */}
+
+        {/* <div class="w-full rounded">
         <a href="mailto:jiten@kriatech.com" target="_blank" rel="noreferrer noopener">
             <img src={KriaTech}
                 alt="Kria Tech" class="drop-shadow-none hover:drop-shadow-md border-none hover:border hover:border-solid"/>
         </a>
-        </div>
+        </div> */}
 
         <div class="w-full rounded">
         <a href="https://vsmthane.org/" target="_blank" rel="noreferrer noopener">
