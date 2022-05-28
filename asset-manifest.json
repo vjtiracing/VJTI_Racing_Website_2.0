@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.92fc0a37.css",
-    "main.js": "/static/js/main.ad4cbdc7.js",
+    "main.js": "/static/js/main.4b6dcec2.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/Brochure2022.pdf": "/static/media/Brochure2022.333398f82ff1a464e333.pdf",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
@@ -118,11 +118,11 @@
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
     "main.92fc0a37.css.map": "/static/css/main.92fc0a37.css.map",
-    "main.ad4cbdc7.js.map": "/static/js/main.ad4cbdc7.js.map",
+    "main.4b6dcec2.js.map": "/static/js/main.4b6dcec2.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92fc0a37.css",
-    "static/js/main.ad4cbdc7.js"
+    "static/js/main.4b6dcec2.js"
   ]
 }
