@@ -2,33 +2,34 @@ import React from "react";
 import "./Team.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/Brochure2022.pdf";
+import brochure from "./files/Sponsorship Booklet.pdf";
 
-import AayushPatel from "./images/Team2022/Aayush_Patel_General_Secretary.jpg";
-import AdityaShastri from "./images/Team2022/Aditya_Shastri.jpg";
-import AyushJoshi from "./images/Team2022/Ayush_Joshi.jpg";
-import BhagyeshSonawane from "./images/Team2022/Bhagyesh_Sonawane.jpg";
-import ChetanPatil from "./images/Team2022/Chetan_Patil.jpg";
-import IshanLokhande from "./images/Team2022/Ishan_Lokhande.jpg";
-import KushalSarda from "./images/Team2022/Kushal_Sarda.jpg";
-import MrutyunjayChinchole from "./images/Team2022/Mrutyunjay_Chinchole_Joint_General_Secretary.jpg";
-import NinadChaulamwar from "./images/Team2022/Ninad_Chaulamwar.jpeg";
-import NiranjanPagar from "./images/Team2022/Niranjan_Pagar.jpeg";
-import PrahladAmudan from "./images/Team2022/Prahlad_ViceCaptain.jfif";
-import PranavPandit from "./images/Team2022/Pranav_Pandit.jpg";
-import PratikshaNeelwani from "./images/Team2022/Pratiksha_Neelwani.jpg";
-import PriyanshiPatel from "./images/Team2022/Priyanshi_Patel.jpeg";
-import RajatPatil from "./images/Team2022/Rajat_Patil.jpg";
-import RatikMandal from "./images/Team2022/Ratik_Mandal.jpg";
-import ReshmikaNambiar from "./images/Team2022/Reshmika_Nambiar.jpeg";
-import SharalDeegoju from "./images/Team2022/Sharal_Deegoju.png";
-import SrushteePadwal from "./images/Team2022/Srushtee_Padwal.jpg";
-import TejasNaik from "./images/Team2022/Tejas_Naik.jpg";
-import TejasPagare from "./images/Team2022/Tejas_Pagare.jpg";
-import VarunPopere from "./images/Team2022/Varun_Popere.jpeg";
-import VikramAde from "./images/Team2022/Vikram_Ade.png";
-import YashGulhane from "./images/Team2022/Yash_Gulhane.png";
-
+import PrahladAmudan from "./images/Team2023/Prahlad_Amudan.jpg";
+import RatikMandal from "./images/Team2023/Ratik_Mandal.jpg";
+import AbhishekGholap from "./images/Team2023/Abhishek_Gholap.jpg";
+import AbhishekPatingrao from "./images/Team2023/Abhishek_Patingrao.jpg";
+import AnuragJajoo from "./images/Team2023/Anuraag Jajoo.jpg";
+import AtharvaBhosale from "./images/Team2023/Atharva_Bhosale.jpg";
+import ChaitanyaDeshpande from "./images/Team2023/Chaitanya Deshpande_.jpg";
+import Chandrashekhar from "./images/Team2023/Chandrashekhar.jpg";
+import EshwariKashid from "./images/Team2023/Eshwari_Kashid.jpg";
+import HarshKubadia from "./images/Team2023/Harsh.jpg";
+import JatinBaranwal from "./images/Team2023/Jatin Baranwal.jpg";
+import KartikaSharma from "./images/Team2023/Kartika_Sharma.jpg";
+import KrishShah from "./images/Team2023/Krish_Shah.jpg";
+import MadhusudhanKulkarni from "./images/Team2023/Madhusudhan kulkarni_.jpg";
+import NahushVispute from "./images/Team2023/Nahush Vispute.jpeg";
+import PushkarDhamane from "./images/Team2023/Pushkar Dhamane.jpg";
+import RiteshJagtap from "./images/Team2023/Ritesh Jagtap.jpg";
+import RohanAdkhale from "./images/Team2023/Rohan_Adkhale.jpg";
+import SamirKadri from "./images/Team2023/Samir_Kadri.jpg";
+import ShivrajParle from "./images/Team2023/Shivraj Parle.jpg";
+import SiddharthSankhe from "./images/Team2023/Siddharth Sankhe_.jpg";
+import SancheeNakashe from "./images/Team2023/Sanchee_Nakashe.jpeg";
+import ShraddhaBedre from "./images/Team2023/Shraddha_Bedre.jpeg";
+import PrajwalNarote from "./images/Team2023/Prajwal.jpeg";
+import AkshanshAchrekar from "./images/Team2023/Akshansh_Acharekar.jpeg";
+import Arshad from "./images/Team2023/ARSHAD_P.JPG";
 
 const Team = (props) => {
 
@@ -125,54 +126,54 @@ const Team = (props) => {
     <section class="relative bg-gray-100  pt-8 lg:pt-16">
       <div class="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
         <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">The Team of 2022</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">The Team of 2023</h2>
         </div>
-        
+
       </div>
       <div class="container mx-auto flex flex-wrap my-8 justify-center">
       <div class="grid sm:grid-cols-2 gap-10">
-        <a href="https://www.linkedin.com/in/aayush-patel-1a385b19b/" target="_blank" rel="noreferrer noopener">
+        
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={AayushPatel} alt="Aayush Patel"/>
+          <img class="w-full h-96 object-cover" src={PrahladAmudan} alt="Prahlad Amudan"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Aayush Patel</div>
+            <div class="font-bold text-xl mb-2">Prahlad Amudan</div>
             <p class=" text-base">
               General Secretary
             </p>
           </div>
         </div>
-        </a>
-        <a href="https://www.linkedin.com/in/mrutyunjay-chinchole-679754196/" target="_blank" rel="noreferrer noopener">
+        
+        
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={MrutyunjayChinchole} alt="Mrutyunjay Chinchole"/>
+          <img class="w-full h-96 object-cover" src={RatikMandal} alt="Ratik Mandal"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Mrutyunjay Chinchole</div>
+            <div class="font-bold text-xl mb-2">Ratik Mandal</div>
             <p class=" text-base">
               Joint General Secretary
             </p>
           </div>
         </div>
-        </a>
+        
       </div>
       </div>
       <div class="container mx-auto flex flex-wrap my-8 justify-center">
       <div class="pt-10 grid md:grid-cols-3 sm:grid-cols-2 gap-10">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={PranavPandit} alt="Pranav Pandit"/>
+          <img class="w-full h-96 object-cover" src={SiddharthSankhe} alt="Siddharth Sankhe"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Pranav Pandit</div>
+            <div class="font-bold text-xl mb-2">Siddharth Sankhe</div>
             <p class=" text-base">
               Captain
               <br/>
-              <i>Vehicle Dynamics</i>
+              <i>Chassis</i>
             </p>
           </div>
         </div>
-        <a href="https://www.linkedin.com/in/prahlad-amudan-060598155/" target="_blank" rel="noreferrer noopener">
+       
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={PrahladAmudan} alt="Prahlad Amudan"/>
+          <img class="w-full h-96 object-cover" src={SancheeNakashe} alt="Sanchee Nakashe"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Prahlad Amudan</div>
+            <div class="font-bold text-xl mb-2">Sanchee Nakashe</div>
             <p class=" text-base">
             Vice-Captain/Team Administrator
             <br/>
@@ -180,62 +181,60 @@ const Team = (props) => {
             </p>
           </div>
         </div>
-        </a>
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={NinadChaulamwar} alt="Ninad Chaulamwar"/>
+          <img class="w-full h-96 object-cover" src={EshwariKashid} alt="Eshwari Kashid"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Ninad Chaulamwar</div>
+            <div class="font-bold text-xl mb-2">Eshwari Kashid</div>
             <p class=" text-base">
               Treasurer
               <br/>
-              <i>Chassis</i>
-            </p>
-          </div>
-        </div>
-        <a href="https://www.linkedin.com/in/niranjan-pagar-55930016b" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={NiranjanPagar} alt="Niranjan Pagar"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Niranjan Pagar</div>
-            <p class=" text-base">
-            Sponsorship Head
-            <br/>
               <i>Power Transmission</i>
             </p>
           </div>
         </div>
-        </a>
-        <a href="https://www.linkedin.com/in/ayushmjoshi/" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={AyushJoshi} alt="Ayush Joshi"/>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={SamirKadri} alt="Samir Kadri"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Ayush Joshi</div>
+            <div class="font-bold text-xl mb-2">Samir Kadri</div>
             <p class=" text-base">
-              Sector Head
-              <br/>
+            Sponsorship Head
+            <br/>
               <i>Vehicle Dynamics</i>
             </p>
           </div>
         </div>
-        </a>
-        <a href="https://www.linkedin.com/in/varunpopere/" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={VarunPopere} alt="Varun Popere"/>
+        
+       
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={AnuragJajoo} alt="Anurag Jajoo"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Varun Popere</div>
+            <div class="font-bold text-xl mb-2">Anurag Jajoo</div>
             <p class=" text-base">
-            Sector Head
+              Social Media Head
+              <br/>
+              <i>Power Transmission</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={AtharvaBhosale} alt="Atharva Bhosale"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Atharva Bhosale</div>
+            <p class=" text-base">
+             Sector head
             <br/>
               <i>Power Transmission</i>
             </p>
           </div>
         </div>
-        </a>
-        <a href="https://www.linkedin.com/in/ratik-mandal-ab2359152/" target="_blank" rel="noreferrer noopener">
+       
+        
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={RatikMandal} alt="Ratik Mandal"/>
+          <img class="w-full h-96 object-cover" src={MadhusudhanKulkarni} alt="Madhusudhan Kulkarni"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Ratik Mandal</div>
+            <div class="font-bold text-xl mb-2">Madhusudhan Kulkarni</div>
             <p class=" text-base">
             Sector Head
             <br/>
@@ -243,11 +242,11 @@ const Team = (props) => {
             </p>
           </div>
         </div>
-        </a>
+        
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={SrushteePadwal} alt="Srushtee Padwal"/>
+          <img class="w-full h-96 object-cover" src={NahushVispute} alt="Nahush Vispute"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Srushtee Padwal</div>
+            <div class="font-bold text-xl mb-2">Nahush Vispute</div>
             <p class=" text-base">
             Sector Head
             <br/>
@@ -255,11 +254,11 @@ const Team = (props) => {
             </p>
           </div>
         </div>
-        <a href="https://www.linkedin.com/in/reshmika-nambiar/" target="_blank" rel="noreferrer noopener">
+       
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={ReshmikaNambiar} alt="Reshmika Nambiar"/>
+          <img class="w-full h-96 object-cover" src={ShraddhaBedre} alt="Shraddha Bedre"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Reshmika Nambiar</div>
+            <div class="font-bold text-xl mb-2">Shraddha Bedre</div>
             <p class=" text-base">
             Sector Head
             <br/>
@@ -267,163 +266,166 @@ const Team = (props) => {
             </p>
           </div>
         </div>
-        </a>
-        <a href="https://www.linkedin.com/in/yash-gulhane-b6867a204/" target="_blank" rel="noreferrer noopener">
         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={YashGulhane} alt="Yash Gulhane"/>
+          <img class="w-full h-96 object-cover" src={KrishShah} alt="Krish Shah"/>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Yash Gulhane</div>
+            <div class="font-bold text-xl mb-2">Krish Shah</div>
             <p class=" text-base">
+              Sector Head
+              <br/>
             <i>Vehicle Dynamics</i>
             </p>
           </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/priyanshi-patel-3a1472228/" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={PriyanshiPatel} alt="Priyanshi Patel"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Priyanshi Patel</div>
-            <p class=" text-base">
-            <i>Vehicle Dynamics</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/ishan-lokhande-a999b121b" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={IshanLokhande} alt="Ishan Lokhande"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Ishan Lokhande</div>
-            <p class=" text-base">
-            <i>Power Transmission</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/bhagyesh-sonawane-b5927b1b3/" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={BhagyeshSonawane} alt="Bhagyesh Sonawane"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Bhagyesh Sonawane</div>
-            <p class=" text-base">
-            <i>Power Transmission</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={TejasNaik} alt="Tejas Naik"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Tejas Naik</div>
-            <p class=" text-base">
-            <i>Power Transmission</i>
-            </p>
-          </div>
-        </div>
-        <a href="https://www.linkedin.com/in/aditya-shastri-2001" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={AdityaShastri} alt="Aditya Shastri"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Aditya Shastri</div>
-            <p class=" text-base">
-            <i>Chassis</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/chetan-patil-2708b71a3" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={ChetanPatil} alt="Chetan Patil"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Chetan Patil</div>
-            <p class=" text-base">
-            <i>Chassis</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/tejaspagare1" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={TejasPagare} alt="Tejas Pagare"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Tejas Pagare</div>
-            <p class=" text-base">
-            <i>Brakes</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/kushal-sarda-134a22216" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={KushalSarda} alt="Kushal Sarda"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Kushal Sarda</div>
-            <p class=" text-base">
-            <i>Brakes</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        </div>
-        </div>
-      <div class="container mx-auto flex flex-wrap my-8 justify-center pt-10 ">
-      <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-10">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={VikramAde} alt="Vikram Ade"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Vikram Ade</div>
-            <p class=" text-base">
-            <i>Brakes</i>
-            </p>
-          </div>
-        </div>
-        <a href="https://www.linkedin.com/in/rajat-patil-172522206" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={RajatPatil} alt="Rajat Patil"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Rajat Patil</div>
-            <p class=" text-base">
-            <i>Electronics</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/sharal-deegoju" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
-          <img class="w-full h-96 object-cover" src={SharalDeegoju} alt="Sharal Deegoju"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Sharal Deegoju</div>
-            <p class=" text-base">
-            <i>Electronics</i>
-            </p>
-          </div>
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/pratiksha-neelwani-5a396a1b2" target="_blank" rel="noreferrer noopener">
-        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
-          <img class="w-full h-96 object-cover" src={PratikshaNeelwani} alt="Pratiksha Neelwani"/>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Pratiksha Neelwani</div>
-            <p class=" text-base">
-            <i>Electronics</i>
-            </p>
-          </div>
-        </div>
-        </a>
-      </div>
-    </div>
-    </section>
-    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-8 lg:pb-16">
-      <div class="flex flex-col lg:flex-row lg:-mx-8">
-        <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Past Members</h2>
         </div>
         
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={Arshad} alt="Arshad Bagwan"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Arshad Bagwan</div>
+            <p class=" text-base">
+            <i>Vehicle Dynamics</i>
+            </p>
+          </div>
+        </div>
+
+         <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={JatinBaranwal} alt="Jatin Baranwal"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Jatin Baranwal</div>
+            <p class=" text-base">
+            <i>Vehicle Dynamics</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={ChaitanyaDeshpande} alt="Chaitanya Deshpande"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Chaitanya Deshpande</div>
+            <p class=" text-base">
+            <i>Power Transmission</i>
+            </p>
+          </div>
+        </div>
+      
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={RohanAdkhale} alt="Rohan Adkhale"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Rohan Adkhale</div>
+            <p class=" text-base">
+            <i>Power Transmission</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={AbhishekPatingrao} alt="Abhishek Patingrao"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Abhishek Patingrao</div>
+            <p class=" text-base">
+            <i>Power Transmission</i>
+            </p>
+          </div>
+        </div>
+       
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={AbhishekGholap} alt="Abhishek Gholap"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Abhishek Gholap</div>
+            <p class=" text-base">
+            <i>Chassis</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={HarshKubadia} alt="Harsh Kubadia"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Harsh Kubadia</div>
+            <p class=" text-base">
+            <i>Chassis</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={Chandrashekhar} alt="Chandrashekhar Jadhav"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Chandrashekhar Jadhav</div>
+            <p class=" text-base">
+            <i>Chassis</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={PushkarDhamane} alt="Pushkar Dhamane"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Pushkar Dhamane</div>
+            <p class=" text-base">
+            <i>Brakes</i>
+            </p>
+          </div>
+        </div>
+
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={AkshanshAchrekar} alt="Akshansh Achrekar"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Akshansh Achrekar</div>
+            <p class=" text-base">
+            <i>Brakes</i>
+            </p>
+          </div>
+        </div>
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={ShivrajParle} alt="Shivraj Parle"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Shivraj Parle</div>
+            <p class=" text-base">
+            <i>Brakes</i>
+            </p>
+          </div>
+        </div>
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={RiteshJagtap} alt="Ritesh Jagtap"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Ritesh Jagtap</div>
+            <p class=" text-base">
+            <i>Brakes</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card" >
+          <img class="w-full h-96 object-cover" src={KartikaSharma} alt="Kartika Sharma"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Kartika Sharma</div>
+            <p class=" text-base">
+            <i>Electronics</i>
+            </p>
+          </div>
+        </div>
+        
+        <div class="max-w-xs rounded overflow-hidden shadow-lg hover:shadow-xl rounded card">
+          <img class="w-full h-96 object-cover" src={PrajwalNarote} alt="Prajwal Narote"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Prajwal Narote</div>
+            <p class=" text-base">
+            <i>Electronics</i>
+            </p>
+          </div>
+        </div>
+        
+        </div>
+        </div>
+      
+    </section>
+    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-8 lg:pb-16">
+<div class="flex flex-col lg:flex-row lg:-mx-8">
+       
+
       </div>
-      <p>
-          To be released.
-        </p>
+      
     </section>
     </section>
 
@@ -435,7 +437,7 @@ const Team = (props) => {
           <iframe title="VJTI Racing Location Map" class="hidden sm:block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="400" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
           <iframe title="VJTI Racing Location Mobile Map" class="block sm:hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30175.274755364262!2d72.856547!3d19.023716000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73c94d19d1c0e616!2sVJTI%20Racing!5e0!3m2!1sen!2sin!4v1644694110011!5m2!1sen!2sin" width="300" height="200" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
         </div>
-        
+
         <div class="w-full fixfoot:w-1/6 mt-8 fixfoot:mt-0 lg:mx-4">
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">Quick Links</h5>
           <ul class="mt-4">
@@ -465,7 +467,7 @@ const Team = (props) => {
                 </span>
               </a>
             </li>
-            
+
             <li class="mt-4">
               <a href="tel:8828186508" title="" class="block flex items-center opacity-75 hover:opacity-100">
                 <span>
@@ -475,9 +477,9 @@ const Team = (props) => {
                       d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
                   </svg>
                 </span>
-    
+
                 <span class="ml-3">
-                  Captain: +91 8828186508
+                  Captain: +91 9226442104
                 </span>
               </a>
             </li>
@@ -499,7 +501,7 @@ const Team = (props) => {
         </div>
 
         <div class="w-full md:w-1/2 fixfoot:w-1/4 mt-8 fixfoot:mt-0 fixfoot:mx-4">
-        
+
           <h5 class="uppercase tracking-wider font-semibold text-gray-500">We're Social!</h5>
           <ul class="mt-4 flex">
             <li>
@@ -549,7 +551,7 @@ const Team = (props) => {
           <a class="mt-8 inline-block font-semibold text-white md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
                   href={brochure} target="_blank" rel="noreferrer noopener">View and Download our Sponsorship Brochure!</a>
 
-          <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2022<br class="hidden lg:block"/> All Rights Reserved.
+          <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2023<br class="hidden lg:block"/> All Rights Reserved.
           </p>
         </div>
 

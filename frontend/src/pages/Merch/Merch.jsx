@@ -157,7 +157,7 @@ const Merch = (props) => {
                 </span>
     
                 <span class="ml-3">
-                  Captain: +91 8828186508
+                  Captain: +91 9226442104
                 </span>
               </a>
             </li>
@@ -229,7 +229,7 @@ const Merch = (props) => {
           <a class="mt-8 inline-block font-semibold text-white md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
                   href={brochure} target="_blank" rel="noreferrer noopener">View and Download our Sponsorship Brochure!</a>
 
-          <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2022<br class="hidden lg:block"/> All Rights Reserved.
+          <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2023<br class="hidden lg:block"/> All Rights Reserved.
           </p>
         </div>
 

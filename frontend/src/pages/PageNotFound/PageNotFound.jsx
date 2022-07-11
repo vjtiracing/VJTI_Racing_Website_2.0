@@ -3,7 +3,7 @@ import "./PageNotFound.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import img404 from "./images/404_type2.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/Brochure2022.pdf";
+import brochure from "./files/Sponsorship Booklet.pdf";
 
 
 const Gallery = (props) => {

@@ -2,7 +2,7 @@ import React from "react";
 import "./Competitions.css";
 import logo from "./images/VJTI_RACING_LOGO_w-01_cut.png";
 import { Link } from 'react-router-dom';
-import brochure from "./files/Brochure2022.pdf";
+import brochure from "./files/Sponsorship Booklet.pdf";
 
 
 
@@ -246,7 +246,7 @@ In SUPRA 2014, we won the <b>Business Presentation Award</b>. Ranked <b>1st in M
                 </span>
     
                 <span class="ml-3">
-                  Captain: +91 8828186508
+                  Captain: +91 9226442104
                 </span>
               </a>
             </li>
@@ -318,7 +318,7 @@ In SUPRA 2014, we won the <b>Business Presentation Award</b>. Ranked <b>1st in M
           <a class="mt-8 inline-block font-semibold text-white md:bg-transparent md:text-white opacity-75 hover:text-red-500 hover:opacity-100"
                   href={brochure} target="_blank" rel="noreferrer noopener">View and Download our Sponsorship Brochure!</a>
 
-          <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2022<br class="hidden lg:block"/> All Rights Reserved.
+          <p class="text-sm text-gray-400 mt-12">© VJTI Racing 2023<br class="hidden lg:block"/> All Rights Reserved.
           </p>
         </div>
 
