@@ -163,11 +163,23 @@ const SponsorMain = (props) => {
           class="px-8 py-4 bg-white text-red-600 rounded inline-block font-semibold md:ml-8 mt-4 md:mt-0">View the file!</a>
       </div>
     </section>
+    <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pb-8 lg:pb-16">
+      <div class="flex flex-col lg:flex-row lg:-mx-8">
+        <div class="w-full">
+          <h2 class="text-3xl leading-tight font-bold mt-4">Sponsors 2023</h2>
+        </div>
+        
+      </div>
+      <h3>
+          Coming soon.
+        </h3>
+    </section>
+    
 
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-8 lg:pt-16">
       <div class="flex flex-col lg:flex-row lg:-mx-8 ">
         <div class="w-full">
-          <h2 class="text-3xl leading-tight font-bold mt-4">Our Sponsors This Year</h2>
+          <h2 class="text-3xl leading-tight font-bold mt-4">Previous Year Sponsors</h2>
           <div class="container mx-auto">
     <div class="grid-cols-3 place-items-center p-20 space-y-4 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2 justify-items-center items-center">
         <div class="w-full col-span-2 row-span-1 rounded">
