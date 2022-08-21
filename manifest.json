@@ -1,0 +1,25 @@
+{
+  "short_name": "VJTI Racing",
+  "name": "VJTI Racing Official Website",
+  "icons": [
+    {
+      "src": "VJTI_RACING_LOGO-01.ico",
+      "sizes": "256x256 128x128 64x64 48x48 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "VJTI_RACING_LOGO-01_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "VJTI_RACING_LOGO-01_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
