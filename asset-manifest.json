@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.de161259.css",
-    "main.js": "/static/js/main.ad457c36.js",
+    "main.css": "/static/css/main.61d98f7a.css",
+    "main.js": "/static/js/main.ce53e715.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
-    "static/media/Brochure2022.pdf": "/static/media/Brochure2022.333398f82ff1a464e333.pdf",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
     "static/media/Sponsorship Booklet.pdf": "/static/media/Sponsorship Booklet.08d9b81f8afed5de1831.pdf",
     "static/media/SOHAM MULYE_IKR23.PNG": "/static/media/SOHAM MULYE_IKR23.fc4e9d849a30174b600f.PNG",
@@ -131,7 +130,6 @@
     "static/media/Circlips.jpg": "/static/media/Circlips.42c4d8bde356b15be282.jpg",
     "static/media/ToolsUnlimited.PNG": "/static/media/ToolsUnlimited.a86b683de2b5e7f95b29.PNG",
     "static/media/Shraddha_Bedre.jpeg": "/static/media/Shraddha_Bedre.25d6afdd761d93ba1e3b.jpeg",
-    "static/media/ARSHAD_P.JPG": "/static/media/ARSHAD_P.0db1aa0bc24c64527f76.JPG",
     "static/media/CityPackers.png": "/static/media/CityPackers.3ccfdaa5db8812873a23.png",
     "static/media/dna.png": "/static/media/dna.a9ace21a4b66b85f67fa.png",
     "static/media/Yash Rajput_IKR23.jpg": "/static/media/Yash Rajput_IKR23.789b109b4738c9ce65d0.jpg",
@@ -155,12 +153,12 @@
     "static/media/ProspectGears.jfif": "/static/media/ProspectGears.5a6322f62524141c6e7b.jfif",
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
-    "main.de161259.css.map": "/static/css/main.de161259.css.map",
-    "main.ad457c36.js.map": "/static/js/main.ad457c36.js.map",
+    "main.61d98f7a.css.map": "/static/css/main.61d98f7a.css.map",
+    "main.ce53e715.js.map": "/static/js/main.ce53e715.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de161259.css",
-    "static/js/main.ad457c36.js"
+    "static/css/main.61d98f7a.css",
+    "static/js/main.ce53e715.js"
   ]
 }
