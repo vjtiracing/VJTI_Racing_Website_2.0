@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61d98f7a.css",
-    "main.js": "/static/js/main.06135d72.js",
+    "main.js": "/static/js/main.11f30aa3.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
     "static/media/Sponsorship Booklet.pdf": "/static/media/Sponsorship Booklet.08d9b81f8afed5de1831.pdf",
@@ -63,6 +63,7 @@
     "static/media/PrecisionCut.PNG": "/static/media/PrecisionCut.7fb8b62e65a79f6b1119.PNG",
     "static/media/ANS.jpeg": "/static/media/ANS.d3bce4f04b705da6486b.jpeg",
     "static/media/award2.jpg": "/static/media/award2.80d0867390f0ef83e366.jpg",
+    "static/media/Shivam Shinde.jpeg": "/static/media/Shivam Shinde.731b375c6f7f6df374e7.jpeg",
     "static/media/Ratik_Mandal.jpg": "/static/media/Ratik_Mandal.a1fd2bdc9630cace6ec8.jpg",
     "static/media/Medha Sati_IKR23.jpg": "/static/media/Medha Sati_IKR23.873c20efa5383be08250.jpg",
     "static/media/Jindal.png": "/static/media/Jindal.993f5698f4c7433b58cd.png",
@@ -154,11 +155,11 @@
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
     "main.61d98f7a.css.map": "/static/css/main.61d98f7a.css.map",
-    "main.06135d72.js.map": "/static/js/main.06135d72.js.map",
+    "main.11f30aa3.js.map": "/static/js/main.11f30aa3.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d98f7a.css",
-    "static/js/main.06135d72.js"
+    "static/js/main.11f30aa3.js"
   ]
 }
