@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61d98f7a.css",
-    "main.js": "/static/js/main.11f30aa3.js",
+    "main.js": "/static/js/main.ae42d39a.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
     "static/media/Sponsorship Booklet.pdf": "/static/media/Sponsorship Booklet.08d9b81f8afed5de1831.pdf",
@@ -155,11 +155,11 @@
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
     "main.61d98f7a.css.map": "/static/css/main.61d98f7a.css.map",
-    "main.11f30aa3.js.map": "/static/js/main.11f30aa3.js.map",
+    "main.ae42d39a.js.map": "/static/js/main.ae42d39a.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d98f7a.css",
-    "static/js/main.11f30aa3.js"
+    "static/js/main.ae42d39a.js"
   ]
 }
