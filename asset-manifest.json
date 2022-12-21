@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61d98f7a.css",
-    "main.js": "/static/js/main.ef1cd484.js",
+    "main.js": "/static/js/main.7e884d36.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
     "static/media/Sponsorship Booklet.pdf": "/static/media/Sponsorship Booklet.08d9b81f8afed5de1831.pdf",
@@ -111,6 +111,7 @@
     "static/media/Topaz.png": "/static/media/Topaz.2833fa7a50cfc713befc.png",
     "static/media/Burnout.png": "/static/media/Burnout.272558f4c6ec4a666e4b.png",
     "static/media/SN_Engg.PNG": "/static/media/SN_Engg.ab97837ee82c18453385.PNG",
+    "static/media/Logo MTC.jpg": "/static/media/Logo MTC.a843dfd8c9c2a35c7964.jpg",
     "static/media/FundTonic.PNG": "/static/media/FundTonic.e41f1a4f8fa42a18a706.PNG",
     "static/media/Pearl.png": "/static/media/Pearl.2d818c2a2f5ee3ab7acf.png",
     "static/media/Emerald.png": "/static/media/Emerald.dd06978e049fa82c13b0.png",
@@ -142,6 +143,7 @@
     "static/media/manufacturing.jpg": "/static/media/manufacturing.fdd01c3e8720b27f1261.jpg",
     "static/media/SDI.jpg": "/static/media/SDI.094c800e026fa946c54b.jpg",
     "static/media/DMC.jpg": "/static/media/DMC.1d88072d806d4ac8c60b.jpg",
+    "static/media/madhav.jpg": "/static/media/madhav.5264e09d0002bd29a1c2.jpg",
     "static/media/3DPrintWorld.jfif": "/static/media/3DPrintWorld.feae57508b45b11dc54f.jfif",
     "static/media/MagnesMotors.jpg": "/static/media/MagnesMotors.484c76f26d4008c90abb.jpg",
     "static/media/PSP.png": "/static/media/PSP.3c14c8cdfd2ad5f9afc6.png",
@@ -155,11 +157,11 @@
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
     "main.61d98f7a.css.map": "/static/css/main.61d98f7a.css.map",
-    "main.ef1cd484.js.map": "/static/js/main.ef1cd484.js.map",
+    "main.7e884d36.js.map": "/static/js/main.7e884d36.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d98f7a.css",
-    "static/js/main.ef1cd484.js"
+    "static/js/main.7e884d36.js"
   ]
 }
