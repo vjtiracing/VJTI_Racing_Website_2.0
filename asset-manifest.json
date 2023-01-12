@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61d98f7a.css",
-    "main.js": "/static/js/main.3f225297.js",
+    "main.js": "/static/js/main.8615d210.js",
     "static/js/787.9750ae9a.chunk.js": "/static/js/787.9750ae9a.chunk.js",
     "static/media/VRWeb2.mp4": "/static/media/VRWeb2.2ec130b3fd34e2f72c61.mp4",
     "static/media/Sponsorship Booklet.pdf": "/static/media/Sponsorship Booklet.08d9b81f8afed5de1831.pdf",
@@ -34,7 +34,6 @@
     "static/media/lec2.jpg": "/static/media/lec2.b7452501771d5f0b4a12.jpg",
     "static/media/Aditi Shinde IKR.jpg": "/static/media/Aditi Shinde IKR.c6482cd2936024989c9f.jpg",
     "static/media/Jash Shah_IKR23.jpg": "/static/media/Jash Shah_IKR23.adff0f5d26b26ce08ebd.jpg",
-    "static/media/KRISHNA_KULKARNI_.jpg": "/static/media/KRISHNA_KULKARNI_.b37933a72adb94a300e9.jpg",
     "static/media/Aryan Patil_IKR23.jpg": "/static/media/Aryan Patil_IKR23.24c6c0c56d5af84186e7.jpg",
     "static/media/Harsh.jpg": "/static/media/Harsh.d0b0d39f59a3fc13535c.jpg",
     "static/media/img12.jpg": "/static/media/img12.f841f8516bc8c6d96117.jpg",
@@ -57,7 +56,6 @@
     "static/media/vishal sejpal.jpg": "/static/media/vishal sejpal.b3badbabcd4294d6e4f2.jpg",
     "static/media/IMG_0085.JPG": "/static/media/IMG_0085.7094d2a98fdcd7554eef.JPG",
     "static/media/100_6524.JPG": "/static/media/100_6524.fbb6e5cc62923ffc979d.JPG",
-    "static/media/sarthak.jpg": "/static/media/sarthak.adb22972d10e084eea86.jpg",
     "static/media/100_6528.JPG": "/static/media/100_6528.388f7150fb3a3ab800a7.JPG",
     "static/media/100E6283.JPG": "/static/media/100E6283.9093622d550a1d2e1a55.JPG",
     "static/media/PrecisionCut.PNG": "/static/media/PrecisionCut.7fb8b62e65a79f6b1119.PNG",
@@ -119,6 +117,7 @@
     "static/media/Sapphire.png": "/static/media/Sapphire.490efde5a121881ab815.png",
     "static/media/Raymond.png": "/static/media/Raymond.affd3c047a1da45e26a0.png",
     "static/media/Ruby.png": "/static/media/Ruby.1822f428eeef0597b2c6.png",
+    "static/media/Vivek Wagadiya.jpeg": "/static/media/Vivek Wagadiya.6d659778cd9c5dd22ba7.jpeg",
     "static/media/Quartz.png": "/static/media/Quartz.0a2e195f4ac0092389d5.png",
     "static/media/FederalBank.png": "/static/media/FederalBank.d294d691336924838fab.png",
     "static/media/ebaja.png": "/static/media/ebaja.c0f2da6c20f205ecd56c.png",
@@ -157,11 +156,11 @@
     "static/media/Greenway.jfif": "/static/media/Greenway.f662ae31a91a985224f0.jfif",
     "index.html": "/index.html",
     "main.61d98f7a.css.map": "/static/css/main.61d98f7a.css.map",
-    "main.3f225297.js.map": "/static/js/main.3f225297.js.map",
+    "main.8615d210.js.map": "/static/js/main.8615d210.js.map",
     "787.9750ae9a.chunk.js.map": "/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61d98f7a.css",
-    "static/js/main.3f225297.js"
+    "static/js/main.8615d210.js"
   ]
 }
